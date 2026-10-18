@@ -1,4 +1,4 @@
-# LOW EXPECTATIONS: the first 60 days
+# LOW EXPECTATIONS: the first 90 days
 
 These lines were written for this prototype. They have no invented author attribution.
 German uses Swiss spelling. The two languages share an entry ID and daily position.
@@ -65,3 +65,33 @@ German uses Swiss spelling. The two languages share an entry ID and daily positi
 | le-058 | You got there in the end. / It was closed. | Du bist endlich angekommen. / Es war geschlossen. |
 | le-059 | Your future self can handle this. / That’s what your past self said. | Dein zukünftiges Ich schafft das. / Das hat dein früheres Ich auch gesagt. |
 | le-060 | Celebrate the small wins. / The large ones are still buffering. | Feier die kleinen Erfolge. / Die grossen werden noch geladen. |
+| le-061 | Pick one thing to worry about. / The others will wait their turn. | Such dir eine Sorge aus. / Die anderen warten, bis sie dran sind. |
+| le-062 | You went in for milk. / The receipt tells a longer story. | Du wolltest nur Milch holen. / Der Kassenzettel erzählt mehr. |
+| le-063 | Failure builds character. / The extension is getting expensive. | Scheitern bildet den Charakter. / Der Anbau wird langsam teuer. |
+| le-064 | The charger is in your bag. / The bag is somewhere else. | Das Ladegerät ist in deiner Tasche. / Die Tasche ist woanders. |
+| le-065 | They said you’d laugh about this one day. / No date has been confirmed. | Eines Tages wirst du darüber lachen. / Ein Termin steht noch aus. |
+| le-066 | Your unsubscribe request was successful. / We’ve emailed you about it. | Du hast dich erfolgreich abgemeldet. / Die Bestätigung kommt per E-Mail. |
+| le-067 | Be spontaneous. / Check everyone’s calendar first. | Sei spontan. / Prüf zuerst die Kalender von allen anderen. |
+| le-068 | The towel rail has come loose. / The repair video has twelve parts. | Der Handtuchhalter ist locker. / Das Reparaturvideo hat zwölf Teile. |
+| le-069 | Your subscription is flexible. / Only the cancellation date is fixed. | Dein Abo ist flexibel. / Nur der Kündigungstermin steht fest. |
+| le-070 | You saved the good notebook for something special. / It’s ageing beautifully. | Du sparst das schöne Notizbuch für etwas Besonderes auf. / Es altert sehr würdevoll. |
+| le-071 | Your savings are growing. / Your wishlist has a head start. | Dein Erspartes wächst. / Deine Wunschliste hatte einen grossen Vorsprung. |
+| le-072 | The train was on time. / You were still buying the ticket. | Der Zug war pünktlich. / Du warst noch am Billettautomaten. |
+| le-073 | The sun came out. / Mostly to show you the dust. | Die Sonne ist da. / Vor allem, damit du den Staub besser siehst. |
+| le-074 | You know exactly what you want. / It’s been discontinued. | Du weisst genau, was du willst. / Es wird nicht mehr hergestellt. |
+| le-075 | Try a different approach. / The error message deserves some variety. | Versuch einen anderen Weg. / Die Fehlermeldung braucht etwas Abwechslung. |
+| le-076 | Your shoes are made for adventure. / They live under the desk. | Deine Schuhe sind für Abenteuer gemacht. / Sie wohnen unter dem Schreibtisch. |
+| le-077 | The customer survey takes two minutes. / Your complaint needs a novel. | Die Umfrage dauert zwei Minuten. / Deine Beschwerde bräuchte einen Roman. |
+| le-078 | Speak your mind. / Then enjoy remembering it at three in the morning. | Sag, was du denkst. / Um drei Uhr morgens kannst du es nochmals durchgehen. |
+| le-079 | The meal plan is balanced. / Mostly between leftovers and giving up. | Dein Menüplan ist ausgewogen. / Halb Reste, halb Kapitulation. |
+| le-080 | Everyone deserves a second chance. / Your printer is on its forty-third. | Alle verdienen eine zweite Chance. / Dein Drucker ist bei Nummer dreiundvierzig. |
+| le-081 | The self-checkout needs assistance. / You were hoping it could provide some. | Die Self-Checkout-Kasse braucht Hilfe. / Du hattest auf das Gegenteil gehofft. |
+| le-082 | Your home has an open-plan layout. / So does the noise. | Deine Wohnung ist offen gestaltet. / Der Lärm hält sich daran. |
+| le-083 | You can have it all. / Finding a drawer for it is your problem. | Du kannst alles haben. / Eine Schublade dafür musst du selbst finden. |
+| le-084 | Your memory is excellent. / Especially for things you’d rather forget. | Dein Gedächtnis ist ausgezeichnet. / Vor allem bei Dingen, die du vergessen möchtest. |
+| le-085 | Pack light. / The things you forget will barely weigh anything. | Reise mit leichtem Gepäck. / Die vergessenen Sachen wiegen praktisch nichts. |
+| le-086 | The furniture has one spare screw. / Your confidence has left the room. | Nach dem Aufbau bleibt eine Schraube übrig. / Dein Selbstvertrauen hat den Raum verlassen. |
+| le-087 | You asked for constructive criticism. / They brought demolition equipment. | Du wolltest konstruktive Kritik. / Sie haben das Abrissgerät mitgebracht. |
+| le-088 | Life has no instruction manual. / The help desk is also closed. | Das Leben hat keine Anleitung. / Der Kundendienst ist ebenfalls geschlossen. |
+| le-089 | Your hard work will be noticed. / Usually when you stop doing it. | Deine harte Arbeit fällt auf. / Meistens, sobald du damit aufhörst. |
+| le-090 | Make time for what matters. / The washing machine has finished again. | Nimm dir Zeit für das Wesentliche. / Die Waschmaschine ist schon wieder fertig. |

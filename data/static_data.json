@@ -1,5 +1,5 @@
 {
-  "catalogue_version": "0.2.0",
+  "catalogue_version": "0.3.0",
   "epoch_local_day": 20743,
   "entries": [
     {
@@ -301,6 +301,156 @@
       "id": "le-060",
       "en": "Celebrate the small wins.\nThe large ones are still buffering.",
       "de": "Feier die kleinen Erfolge.\nDie grossen werden noch geladen."
+    },
+    {
+      "id": "le-061",
+      "en": "Pick one thing to worry about.\nThe others will wait their turn.",
+      "de": "Such dir eine Sorge aus.\nDie anderen warten, bis sie dran sind."
+    },
+    {
+      "id": "le-062",
+      "en": "You went in for milk.\nThe receipt tells a longer story.",
+      "de": "Du wolltest nur Milch holen.\nDer Kassenzettel erzählt mehr."
+    },
+    {
+      "id": "le-063",
+      "en": "Failure builds character.\nThe extension is getting expensive.",
+      "de": "Scheitern bildet den Charakter.\nDer Anbau wird langsam teuer."
+    },
+    {
+      "id": "le-064",
+      "en": "The charger is in your bag.\nThe bag is somewhere else.",
+      "de": "Das Ladegerät ist in deiner Tasche.\nDie Tasche ist woanders."
+    },
+    {
+      "id": "le-065",
+      "en": "They said you’d laugh about this one day.\nNo date has been confirmed.",
+      "de": "Eines Tages wirst du darüber lachen.\nEin Termin steht noch aus."
+    },
+    {
+      "id": "le-066",
+      "en": "Your unsubscribe request was successful.\nWe’ve emailed you about it.",
+      "de": "Du hast dich erfolgreich abgemeldet.\nDie Bestätigung kommt per E-Mail."
+    },
+    {
+      "id": "le-067",
+      "en": "Be spontaneous.\nCheck everyone’s calendar first.",
+      "de": "Sei spontan.\nPrüf zuerst die Kalender von allen anderen."
+    },
+    {
+      "id": "le-068",
+      "en": "The towel rail has come loose.\nThe repair video has twelve parts.",
+      "de": "Der Handtuchhalter ist locker.\nDas Reparaturvideo hat zwölf Teile."
+    },
+    {
+      "id": "le-069",
+      "en": "Your subscription is flexible.\nOnly the cancellation date is fixed.",
+      "de": "Dein Abo ist flexibel.\nNur der Kündigungstermin steht fest."
+    },
+    {
+      "id": "le-070",
+      "en": "You saved the good notebook for something special.\nIt’s ageing beautifully.",
+      "de": "Du sparst das schöne Notizbuch für etwas Besonderes auf.\nEs altert sehr würdevoll."
+    },
+    {
+      "id": "le-071",
+      "en": "Your savings are growing.\nYour wishlist has a head start.",
+      "de": "Dein Erspartes wächst.\nDeine Wunschliste hatte einen grossen Vorsprung."
+    },
+    {
+      "id": "le-072",
+      "en": "The train was on time.\nYou were still buying the ticket.",
+      "de": "Der Zug war pünktlich.\nDu warst noch am Billettautomaten."
+    },
+    {
+      "id": "le-073",
+      "en": "The sun came out.\nMostly to show you the dust.",
+      "de": "Die Sonne ist da.\nVor allem, damit du den Staub besser siehst."
+    },
+    {
+      "id": "le-074",
+      "en": "You know exactly what you want.\nIt’s been discontinued.",
+      "de": "Du weisst genau, was du willst.\nEs wird nicht mehr hergestellt."
+    },
+    {
+      "id": "le-075",
+      "en": "Try a different approach.\nThe error message deserves some variety.",
+      "de": "Versuch einen anderen Weg.\nDie Fehlermeldung braucht etwas Abwechslung."
+    },
+    {
+      "id": "le-076",
+      "en": "Your shoes are made for adventure.\nThey live under the desk.",
+      "de": "Deine Schuhe sind für Abenteuer gemacht.\nSie wohnen unter dem Schreibtisch."
+    },
+    {
+      "id": "le-077",
+      "en": "The customer survey takes two minutes.\nYour complaint needs a novel.",
+      "de": "Die Umfrage dauert zwei Minuten.\nDeine Beschwerde bräuchte einen Roman."
+    },
+    {
+      "id": "le-078",
+      "en": "Speak your mind.\nThen enjoy remembering it at three in the morning.",
+      "de": "Sag, was du denkst.\nUm drei Uhr morgens kannst du es nochmals durchgehen."
+    },
+    {
+      "id": "le-079",
+      "en": "The meal plan is balanced.\nMostly between leftovers and giving up.",
+      "de": "Dein Menüplan ist ausgewogen.\nHalb Reste, halb Kapitulation."
+    },
+    {
+      "id": "le-080",
+      "en": "Everyone deserves a second chance.\nYour printer is on its forty-third.",
+      "de": "Alle verdienen eine zweite Chance.\nDein Drucker ist bei Nummer dreiundvierzig."
+    },
+    {
+      "id": "le-081",
+      "en": "The self-checkout needs assistance.\nYou were hoping it could provide some.",
+      "de": "Die Self-Checkout-Kasse braucht Hilfe.\nDu hattest auf das Gegenteil gehofft."
+    },
+    {
+      "id": "le-082",
+      "en": "Your home has an open-plan layout.\nSo does the noise.",
+      "de": "Deine Wohnung ist offen gestaltet.\nDer Lärm hält sich daran."
+    },
+    {
+      "id": "le-083",
+      "en": "You can have it all.\nFinding a drawer for it is your problem.",
+      "de": "Du kannst alles haben.\nEine Schublade dafür musst du selbst finden."
+    },
+    {
+      "id": "le-084",
+      "en": "Your memory is excellent.\nEspecially for things you’d rather forget.",
+      "de": "Dein Gedächtnis ist ausgezeichnet.\nVor allem bei Dingen, die du vergessen möchtest."
+    },
+    {
+      "id": "le-085",
+      "en": "Pack light.\nThe things you forget will barely weigh anything.",
+      "de": "Reise mit leichtem Gepäck.\nDie vergessenen Sachen wiegen praktisch nichts."
+    },
+    {
+      "id": "le-086",
+      "en": "The furniture has one spare screw.\nYour confidence has left the room.",
+      "de": "Nach dem Aufbau bleibt eine Schraube übrig.\nDein Selbstvertrauen hat den Raum verlassen."
+    },
+    {
+      "id": "le-087",
+      "en": "You asked for constructive criticism.\nThey brought demolition equipment.",
+      "de": "Du wolltest konstruktive Kritik.\nSie haben das Abrissgerät mitgebracht."
+    },
+    {
+      "id": "le-088",
+      "en": "Life has no instruction manual.\nThe help desk is also closed.",
+      "de": "Das Leben hat keine Anleitung.\nDer Kundendienst ist ebenfalls geschlossen."
+    },
+    {
+      "id": "le-089",
+      "en": "Your hard work will be noticed.\nUsually when you stop doing it.",
+      "de": "Deine harte Arbeit fällt auf.\nMeistens, sobald du damit aufhörst."
+    },
+    {
+      "id": "le-090",
+      "en": "Make time for what matters.\nThe washing machine has finished again.",
+      "de": "Nimm dir Zeit für das Wesentliche.\nDie Waschmaschine ist schon wieder fertig."
     }
   ]
 }

@@ -7,8 +7,12 @@ const { validateSettings } = require('../scripts/settings');
 const { parse, stringify } = require('yaml');
 const catalogue = JSON.parse(fs.readFileSync(path.join(root, 'data/static_data.json'), 'utf8'));
 
-test('60 complete bilingual entries, distinct IDs and distinct text', () => {
-  assert.equal(catalogue.entries.length, 60);
+test('a nonempty bilingual catalogue with distinct IDs and text', () => {
+  assert(catalogue.entries.length > 0);
+  for (const entry of catalogue.entries) {
+    assert.match(entry.id, /^le-\d{3}$/);
+    for (const lang of ['en', 'de']) assert.equal(typeof entry[lang], 'string');
+  }
   for (const key of ['id', 'en', 'de']) {
     assert.equal(new Set(catalogue.entries.map(q => q[key])).size, catalogue.entries.length);
   }
@@ -18,7 +22,9 @@ test('each entry appears in order once during a complete cycle, then the cycle r
   const ids = [];
   for (let day = 0; day <= count; day++) {
     const iso = new Date((catalogue.epoch_local_day + day) * 86400000 + 12 * 3600000).toISOString();
-    ids.push(entryId(await render('full', context(iso, 0))));
+    const html = await render('full', context(iso, 0));
+    assert.equal(localDate(html), iso.slice(0, 10));
+    ids.push(entryId(html));
   }
   assert.deepEqual(ids.slice(0, count), catalogue.entries.map(q => q.id));
   assert.equal(ids[count], ids[0]);
@@ -121,7 +127,7 @@ test('settings validation accepts TRMNL formatting and rejects changed content o
   values.oauth_enabled = 'false';
   values.static_data = JSON.stringify(JSON.parse(values.static_data), null, 2);
   assert.doesNotThrow(() => validateSettings(stringify(values), expected));
-  const stale = {...values, static_data: JSON.stringify({...catalogue, entries: catalogue.entries.slice(0, 30)})};
+  const stale = {...values, static_data: JSON.stringify({...catalogue, entries: catalogue.entries.slice(0, -1)})};
   assert.throws(() => validateSettings(stringify(stale), expected), /Static catalogue differs/);
   assert.throws(() => validateSettings(stringify({...values, custom_fields: []}), expected), /custom_fields/);
 });
