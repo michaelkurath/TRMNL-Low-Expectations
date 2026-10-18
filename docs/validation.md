@@ -1,11 +1,11 @@
-# Validation of version 0.1.0
+# Validation of version 0.2.0
 
 ## Daily selection
 
-12 automated tests pass against the actual Shared and layout Liquid files using LiquidJS 10.21.1.
+13 automated tests pass against the actual Shared and layout Liquid files using LiquidJS 10.21.1, plus the generated settings.
 
 The tests cover:
-- all 30 entries before repetition;
+- all 60 entries in catalogue order before repetition;
 - unchanged output on repeat refreshes during one local date;
 - local midnight in Zurich, New York, and Nepal;
 - spring and autumn DST transitions with the offset supplied by TRMNL;
@@ -15,11 +15,12 @@ The tests cover:
 - escaped quote text;
 - consistent date and entry across all four layouts;
 - generated settings matching the current catalogue.
+- TRMNL YAML reformatting accepted while changed content or language fields are rejected.
 
 ## Browser layout review
 
-960 combinations pass without detected content overflow or script errors:
-30 entries x 2 languages x 4 layouts x 4 screen profiles.
+1,920 combinations pass without detected content overflow or script errors:
+60 entries x 2 languages x 4 layouts x 4 screen profiles.
 
 The profiles are:
 - OG: 800 x 480 CSS pixels, 1-bit.
@@ -56,4 +57,4 @@ The checks use LiquidJS, not TRMNL's hosted Ruby Liquid renderer. All template f
 
 Ruby and Docker were unavailable in the build environment, so trmnlp itself was not run. Do not treat these results as a completed native hosted review or physical device test.
 
-This is a functional prototype with a 30-day cycle. Verify the initial installation and several daily transitions on a real TRMNL before publication. The actual screen update follows the account and device refresh schedule.
+This is a functional prototype with a 60-day cycle. Verify the initial installation and several daily transitions on a real TRMNL before publication. The actual screen update follows the account and device refresh schedule.

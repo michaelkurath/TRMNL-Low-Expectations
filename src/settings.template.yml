@@ -13,7 +13,7 @@ custom_fields:
     field_type: author_bio
     name: About LOW EXPECTATIONS
     category: humor,calendar
-    description: A daily tear-off calendar of dry humour. Prototype with 30 bilingual entries, repeating after 30 days.
+    description: A daily tear-off calendar of dry humour. Prototype with __ENTRY_COUNT__ bilingual entries, repeating after __ENTRY_COUNT__ days.
     github_url: https://github.com/michaelkurath/TRMNL-Low-Expectations
   - keyname: language
     name: Language

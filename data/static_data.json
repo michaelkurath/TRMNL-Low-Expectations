@@ -1,5 +1,5 @@
 {
-  "catalogue_version": "0.1.0",
+  "catalogue_version": "0.2.0",
   "epoch_local_day": 20743,
   "entries": [
     {
@@ -151,6 +151,156 @@
       "id": "le-030",
       "en": "The instructions were clear.\nBefore the clarifications.",
       "de": "Die Anleitung war klar.\nVor den Erläuterungen."
+    },
+    {
+      "id": "le-031",
+      "en": "Start with the easy part.\nThere isn’t one.",
+      "de": "Fang mit dem einfachen Teil an.\nDen gibt es nicht."
+    },
+    {
+      "id": "le-032",
+      "en": "The queue beside you moves faster.\nThat is its only job.",
+      "de": "Die Schlange neben dir ist schneller.\nDas ist ihre einzige Aufgabe."
+    },
+    {
+      "id": "le-033",
+      "en": "Your phone remembers every password.\nExcept when you need one.",
+      "de": "Dein Handy kennt alle Passwörter.\nAusser wenn du eines brauchst."
+    },
+    {
+      "id": "le-034",
+      "en": "Keep your options open.\nIt makes choosing take longer.",
+      "de": "Halte dir alle Möglichkeiten offen.\nDann dauert die Entscheidung länger."
+    },
+    {
+      "id": "le-035",
+      "en": "The parcel will arrive between eight and the end of your patience.",
+      "de": "Dein Paket kommt zwischen acht Uhr und dem Ende deiner Geduld."
+    },
+    {
+      "id": "le-036",
+      "en": "You’ve found your calling.\nIt doesn’t cover the rent.",
+      "de": "Du hast deine Berufung gefunden.\nDie Miete übernimmt sie nicht."
+    },
+    {
+      "id": "le-037",
+      "en": "The recipe says twenty minutes.\nIt hasn’t seen your kitchen.",
+      "de": "Das Rezept sagt zwanzig Minuten.\nEs kennt deine Küche nicht."
+    },
+    {
+      "id": "le-038",
+      "en": "You scheduled some rest.\nNow you’re behind on relaxing.",
+      "de": "Du hast Erholung eingeplant.\nJetzt bist du beim Entspannen im Rückstand."
+    },
+    {
+      "id": "le-039",
+      "en": "The cactus was low maintenance.\nApparently, not low enough.",
+      "de": "Der Kaktus war pflegeleicht.\nOffenbar nicht leicht genug."
+    },
+    {
+      "id": "le-040",
+      "en": "A new hobby is a lovely way to turn cupboard space into guilt.",
+      "de": "Ein neues Hobby verwandelt freien Schrankplatz zuverlässig in ein schlechtes Gewissen."
+    },
+    {
+      "id": "le-041",
+      "en": "You left early to avoid traffic.\nSo did the traffic.",
+      "de": "Du bist früher los, um den Stau zu vermeiden.\nDer Stau auch."
+    },
+    {
+      "id": "le-042",
+      "en": "Measure twice.\nBuy the wrong thing with confidence.",
+      "de": "Miss zweimal nach.\nKauf dann mit Überzeugung das Falsche."
+    },
+    {
+      "id": "le-043",
+      "en": "There’s no such thing as a stupid question.\nYou have inspired a review.",
+      "de": "Es gibt keine dummen Fragen.\nDeine wird gerade geprüft."
+    },
+    {
+      "id": "le-044",
+      "en": "The weather app promises sunshine.\nOutside would like a word.",
+      "de": "Die Wetter-App verspricht Sonne.\nDraussen sieht man das anders."
+    },
+    {
+      "id": "le-045",
+      "en": "Trust the process.\nIt has no idea either.",
+      "de": "Vertrau dem Prozess.\nEr weiss es auch nicht."
+    },
+    {
+      "id": "le-046",
+      "en": "The budget is balanced.\nUntil anything happens.",
+      "de": "Das Budget ist ausgeglichen.\nSolange nichts passiert."
+    },
+    {
+      "id": "le-047",
+      "en": "Dream big.\nDisappointment scales.",
+      "de": "Träum gross.\nEnttäuschung wächst mit."
+    },
+    {
+      "id": "le-048",
+      "en": "Some doors open only once.\nUsually while you’re carrying too much.",
+      "de": "Manche Türen öffnen sich nur einmal.\nMeistens, wenn du die Hände voll hast."
+    },
+    {
+      "id": "le-049",
+      "en": "Your headphones are wireless.\nFinding them is still a hands-on job.",
+      "de": "Deine Kopfhörer sind kabellos.\nDie Suche bleibt Handarbeit."
+    },
+    {
+      "id": "le-050",
+      "en": "You slept on the decision.\nNow you’re tired and undecided.",
+      "de": "Du hast eine Nacht darüber geschlafen.\nJetzt bist du müde und unentschlossen."
+    },
+    {
+      "id": "le-051",
+      "en": "Good things take time.\nSo do the other things.",
+      "de": "Gut Ding will Weile haben.\nDer Rest leider auch."
+    },
+    {
+      "id": "le-052",
+      "en": "The alarm believes in your potential.\nYou keep correcting it.",
+      "de": "Dein Wecker glaubt an dein Potenzial.\nDu widersprichst alle neun Minuten."
+    },
+    {
+      "id": "le-053",
+      "en": "Ask for a sign.\nRoadworks are usually available.",
+      "de": "Bitte um ein Zeichen.\nBaustellenschilder gibt es genug."
+    },
+    {
+      "id": "le-054",
+      "en": "Your cloud storage is full.\nEven the sky has limits.",
+      "de": "Deine Cloud ist voll.\nSelbst der Himmel hat seine Grenzen."
+    },
+    {
+      "id": "le-055",
+      "en": "The missing sock has moved on.\nYou should try it.",
+      "de": "Die verschwundene Socke hat losgelassen.\nVersuch es auch."
+    },
+    {
+      "id": "le-056",
+      "en": "Your promotion came with a better chair.\nYou’ll be in it longer.",
+      "de": "Zur Beförderung gab es einen besseren Stuhl.\nDu wirst länger darin sitzen."
+    },
+    {
+      "id": "le-057",
+      "en": "Choose your battles.\nThe fitted sheet has already won.",
+      "de": "Wähl deine Kämpfe mit Bedacht.\nDas Fixleintuch hat schon gewonnen."
+    },
+    {
+      "id": "le-058",
+      "en": "You got there in the end.\nIt was closed.",
+      "de": "Du bist endlich angekommen.\nEs war geschlossen."
+    },
+    {
+      "id": "le-059",
+      "en": "Your future self can handle this.\nThat’s what your past self said.",
+      "de": "Dein zukünftiges Ich schafft das.\nDas hat dein früheres Ich auch gesagt."
+    },
+    {
+      "id": "le-060",
+      "en": "Celebrate the small wins.\nThe large ones are still buffering.",
+      "de": "Feier die kleinen Erfolge.\nDie grossen werden noch geladen."
     }
   ]
 }

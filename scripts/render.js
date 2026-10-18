@@ -92,7 +92,7 @@ async function main() {
             fs.writeFileSync(path.join(root,'previews',basename+'.html'),publicHtml);
           }
           for (let i = 0; i < catalogue.entries.length; i++) {
-            const iso = new Date(Date.parse('2026-10-17T12:00:00Z') + i * 86400000).toISOString();
+            const iso = new Date((catalogue.epoch_local_day + i) * 86400000 + 12 * 3600000).toISOString();
             const nextMarkup = await render(layout, context(iso, 0, language));
             await page.evaluate(next => {
               const parsed = new DOMParser().parseFromString(next,'text/html');
@@ -133,7 +133,7 @@ async function main() {
       browser:await browser.version(),
       checks,
       devices:devices.map(d=>({name:d.key,width:d.width,height:d.height})),
-      language_count:2, catalogue_entries:30, renderedSizes, findings, runtime_errors:errors,
+      language_count:2, catalogue_entries:catalogue.entries.length, renderedSizes, findings, runtime_errors:errors,
       limitation:'Local native-framework previews; hosted TRMNL rendering and physical device verification still pending. The display changes on its next scheduled refresh.'
     };
     fs.writeFileSync(path.join(root,'docs/render-results.json'),JSON.stringify(summary,null,2)+'\n');

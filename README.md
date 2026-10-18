@@ -2,13 +2,13 @@
 
 A fresh disappointment. Every day.
 
-[GitHub repository](https://github.com/michaelkurath/TRMNL-Low-Expectations) · [All 30 entries](docs/quotes.md) · [Setup and validation](docs/validation.md)
+[GitHub repository](https://github.com/michaelkurath/TRMNL-Low-Expectations) · [All 60 entries](docs/quotes.md) · [Setup and validation](docs/validation.md)
 
 A working TRMNL calendar prototype with a paper binding, perforation, stacked page edges, a large date, and one dry line of advice per local day.
 
 ## What is included
 
-- 30 paired English/German entries, written for this prototype.
+- 60 paired English/German entries, written for this prototype.
 - Full, half-horizontal, half-vertical, and quadrant Liquid templates.
 - Layout rules for OG, X, and X portrait.
 - Deterministic daily rotation using the TRMNL account's UTC offset.
@@ -16,7 +16,9 @@ A working TRMNL calendar prototype with a paper binding, perforation, stacked pa
 - Static data: no quote API, external feed, API key, Serverless function, or daily AI generation.
 - Source catalogue, generated settings, HTML previews, and automated checks.
 
-This is a 30-day prototype, not a full-year edition. After 30 local days, the sequence repeats. The two languages show the same entry on the same local date.
+This is a 60-day prototype, not a full-year edition. After 60 local days, the sequence repeats. The two languages show the same entry on the same local date.
+
+Version 0.2.0 appends entries le-031 to le-060, with more everyday frustrations, ambition, and bad advice. The first 30 entries and the anchor date are unchanged; their initial dates retain the same lines. The longer cycle changes what appears after those first 30 days.
 
 ## Import from the linked GitHub repository
 
@@ -64,7 +66,7 @@ Edit data/quotes.json, then run:
 
     npm run build
 
-This updates src/settings.yml, data/static_data.json, docs/custom-fields.yml, and docs/quotes.md. The display payload excludes editorial topic labels to keep it below 5 KB.
+This updates src/settings.yml, data/static_data.json, docs/custom-fields.yml, and docs/quotes.md. Entry counts in generated metadata follow the source catalogue. The display payload excludes editorial topic labels; the build reports its byte size.
 
 Keep the catalogue length and order stable within a release. Changing either can change which line a date selects. There are no invented celebrity author credits.
 
@@ -72,15 +74,16 @@ Keep the catalogue length and order stable within a release. Changing either can
 
     npm ci --ignore-scripts
     npm run build
+    npm run check
     npm test
 
-GitHub Actions runs the build and daily-selection tests on every push and pull request, and checks that generated catalogue files are current.
+GitHub Actions checks generated files and runs the daily-selection tests on every push and pull request. Settings are compared by value, so TRMNL's YAML formatting and extra strategy defaults do not trigger a false failure. Catalogue changes and missing form fields still fail validation.
 
 For layout rendering, install Playwright Chromium and download the official Framework 3.4.3 and TRMNL font bundles. See docs/validation.md for the environment variables and the limits of local checks.
 
 ## Current status
 
-The daily-selection tests and native-framework browser layout checks pass. The prototype has not been uploaded to a live TRMNL account, published as a recipe, or tested on physical hardware. Native hosted rendering remains a release check.
+The daily-selection tests and native-framework browser layout checks pass. The repository is linked to TRMNL plugin 510794, and its latest export retains the Static catalogue and language field. Hosted rendering and physical device verification remain release checks; the recipe has not been published.
 
 The next content milestone is a carefully edited full-year collection. Weekday-specific and seasonal lines are intentionally deferred until the daily calendar itself has been tested on a device.
 

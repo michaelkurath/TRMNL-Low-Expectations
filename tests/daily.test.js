@@ -3,24 +3,25 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const { context, render, value, entryId, localDate, root } = require('../scripts/template');
+const { validateSettings } = require('../scripts/settings');
+const { parse, stringify } = require('yaml');
 const catalogue = JSON.parse(fs.readFileSync(path.join(root, 'data/static_data.json'), 'utf8'));
 
-test('30 complete bilingual entries, distinct IDs and distinct text', () => {
-  assert.equal(catalogue.entries.length, 30);
+test('60 complete bilingual entries, distinct IDs and distinct text', () => {
+  assert.equal(catalogue.entries.length, 60);
   for (const key of ['id', 'en', 'de']) {
-    assert.equal(new Set(catalogue.entries.map(q => q[key])).size, 30);
+    assert.equal(new Set(catalogue.entries.map(q => q[key])).size, catalogue.entries.length);
   }
 });
-test('each entry appears once during the first 30 local days, then the cycle repeats', async () => {
+test('each entry appears in order once during a complete cycle, then the cycle repeats', async () => {
+  const count = catalogue.entries.length;
   const ids = [];
-  for (let day = 0; day <= 30; day++) {
-    const iso = new Date(Date.parse('2026-10-17T12:00:00Z') + day * 86400000).toISOString();
+  for (let day = 0; day <= count; day++) {
+    const iso = new Date((catalogue.epoch_local_day + day) * 86400000 + 12 * 3600000).toISOString();
     ids.push(entryId(await render('full', context(iso, 0))));
   }
-  assert.equal(new Set(ids.slice(0, 30)).size, 30);
-  assert.equal(ids[0], 'le-001');
-  assert.equal(ids[29], 'le-030');
-  assert.equal(ids[30], ids[0]);
+  assert.deepEqual(ids.slice(0, count), catalogue.entries.map(q => q.id));
+  assert.equal(ids[count], ids[0]);
 });
 test('refreshes within a local day do not change the selected line', async () => {
   const ids = [];
@@ -107,8 +108,20 @@ test('all four layouts show the same date and quote', async () => {
 });
 test('generated settings contain the current catalogue and a short description', () => {
   const settings = fs.readFileSync(path.join(root, 'src/settings.yml'), 'utf8');
-  const scalar = settings.match(/^static_data: (.+)$/m)[1];
-  assert.deepEqual(JSON.parse(JSON.parse(scalar)), catalogue);
-  assert(settings.match(/^description: (.+)$/m)[1].length <= 35);
-  assert.equal(settings.match(/^strategy: (.+)$/m)[1], 'static');
+  const values = parse(settings);
+  assert.deepEqual(JSON.parse(values.static_data), catalogue);
+  assert(values.description.length <= 35);
+  assert.equal(values.strategy, 'static');
+});
+test('settings validation accepts TRMNL formatting and rejects changed content or language fields', () => {
+  const expected = fs.readFileSync(path.join(root, 'src/settings.yml'), 'utf8');
+  const values = Object.fromEntries(Object.entries(parse(expected)).reverse());
+  values.polling_verb = 'get';
+  values.polling_url = '';
+  values.oauth_enabled = 'false';
+  values.static_data = JSON.stringify(JSON.parse(values.static_data), null, 2);
+  assert.doesNotThrow(() => validateSettings(stringify(values), expected));
+  const stale = {...values, static_data: JSON.stringify({...catalogue, entries: catalogue.entries.slice(0, 30)})};
+  assert.throws(() => validateSettings(stringify(stale), expected), /Static catalogue differs/);
+  assert.throws(() => validateSettings(stringify({...values, custom_fields: []}), expected), /custom_fields/);
 });

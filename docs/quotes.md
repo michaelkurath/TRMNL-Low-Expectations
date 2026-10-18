@@ -1,4 +1,4 @@
-# LOW EXPECTATIONS: the first 30 days
+# LOW EXPECTATIONS: the first 60 days
 
 These lines were written for this prototype. They have no invented author attribution.
 German uses Swiss spelling. The two languages share an entry ID and daily position.
@@ -35,3 +35,33 @@ German uses Swiss spelling. The two languages share an entry ID and daily positi
 | le-028 | The problem has been escalated. / It now has more witnesses. | Das Problem wurde eskaliert. / Es hat jetzt mehr Zuschauer. |
 | le-029 | You learned to say no. / They’ve scheduled a meeting about it. | Du hast gelernt, Nein zu sagen. / Dazu gibt es jetzt eine Besprechung. |
 | le-030 | The instructions were clear. / Before the clarifications. | Die Anleitung war klar. / Vor den Erläuterungen. |
+| le-031 | Start with the easy part. / There isn’t one. | Fang mit dem einfachen Teil an. / Den gibt es nicht. |
+| le-032 | The queue beside you moves faster. / That is its only job. | Die Schlange neben dir ist schneller. / Das ist ihre einzige Aufgabe. |
+| le-033 | Your phone remembers every password. / Except when you need one. | Dein Handy kennt alle Passwörter. / Ausser wenn du eines brauchst. |
+| le-034 | Keep your options open. / It makes choosing take longer. | Halte dir alle Möglichkeiten offen. / Dann dauert die Entscheidung länger. |
+| le-035 | The parcel will arrive between eight and the end of your patience. | Dein Paket kommt zwischen acht Uhr und dem Ende deiner Geduld. |
+| le-036 | You’ve found your calling. / It doesn’t cover the rent. | Du hast deine Berufung gefunden. / Die Miete übernimmt sie nicht. |
+| le-037 | The recipe says twenty minutes. / It hasn’t seen your kitchen. | Das Rezept sagt zwanzig Minuten. / Es kennt deine Küche nicht. |
+| le-038 | You scheduled some rest. / Now you’re behind on relaxing. | Du hast Erholung eingeplant. / Jetzt bist du beim Entspannen im Rückstand. |
+| le-039 | The cactus was low maintenance. / Apparently, not low enough. | Der Kaktus war pflegeleicht. / Offenbar nicht leicht genug. |
+| le-040 | A new hobby is a lovely way to turn cupboard space into guilt. | Ein neues Hobby verwandelt freien Schrankplatz zuverlässig in ein schlechtes Gewissen. |
+| le-041 | You left early to avoid traffic. / So did the traffic. | Du bist früher los, um den Stau zu vermeiden. / Der Stau auch. |
+| le-042 | Measure twice. / Buy the wrong thing with confidence. | Miss zweimal nach. / Kauf dann mit Überzeugung das Falsche. |
+| le-043 | There’s no such thing as a stupid question. / You have inspired a review. | Es gibt keine dummen Fragen. / Deine wird gerade geprüft. |
+| le-044 | The weather app promises sunshine. / Outside would like a word. | Die Wetter-App verspricht Sonne. / Draussen sieht man das anders. |
+| le-045 | Trust the process. / It has no idea either. | Vertrau dem Prozess. / Er weiss es auch nicht. |
+| le-046 | The budget is balanced. / Until anything happens. | Das Budget ist ausgeglichen. / Solange nichts passiert. |
+| le-047 | Dream big. / Disappointment scales. | Träum gross. / Enttäuschung wächst mit. |
+| le-048 | Some doors open only once. / Usually while you’re carrying too much. | Manche Türen öffnen sich nur einmal. / Meistens, wenn du die Hände voll hast. |
+| le-049 | Your headphones are wireless. / Finding them is still a hands-on job. | Deine Kopfhörer sind kabellos. / Die Suche bleibt Handarbeit. |
+| le-050 | You slept on the decision. / Now you’re tired and undecided. | Du hast eine Nacht darüber geschlafen. / Jetzt bist du müde und unentschlossen. |
+| le-051 | Good things take time. / So do the other things. | Gut Ding will Weile haben. / Der Rest leider auch. |
+| le-052 | The alarm believes in your potential. / You keep correcting it. | Dein Wecker glaubt an dein Potenzial. / Du widersprichst alle neun Minuten. |
+| le-053 | Ask for a sign. / Roadworks are usually available. | Bitte um ein Zeichen. / Baustellenschilder gibt es genug. |
+| le-054 | Your cloud storage is full. / Even the sky has limits. | Deine Cloud ist voll. / Selbst der Himmel hat seine Grenzen. |
+| le-055 | The missing sock has moved on. / You should try it. | Die verschwundene Socke hat losgelassen. / Versuch es auch. |
+| le-056 | Your promotion came with a better chair. / You’ll be in it longer. | Zur Beförderung gab es einen besseren Stuhl. / Du wirst länger darin sitzen. |
+| le-057 | Choose your battles. / The fitted sheet has already won. | Wähl deine Kämpfe mit Bedacht. / Das Fixleintuch hat schon gewonnen. |
+| le-058 | You got there in the end. / It was closed. | Du bist endlich angekommen. / Es war geschlossen. |
+| le-059 | Your future self can handle this. / That’s what your past self said. | Dein zukünftiges Ich schafft das. / Das hat dein früheres Ich auch gesagt. |
+| le-060 | Celebrate the small wins. / The large ones are still buffering. | Feier die kleinen Erfolge. / Die grossen werden noch geladen. |
