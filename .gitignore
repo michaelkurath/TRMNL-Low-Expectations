@@ -1,0 +1,5 @@
+node_modules/
+.trmnlp/
+.trmnlp_config
+.env
+previews/*.png

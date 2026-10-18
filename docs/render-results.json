@@ -1,0 +1,292 @@
+{
+  "generated_at": "2026-10-17T08:08:00.940Z",
+  "framework": "3.4.3",
+  "engine": "LiquidJS 10.21.1 + Chromium",
+  "browser": "153.0.8010.0",
+  "checks": 960,
+  "devices": [
+    {
+      "name": "og",
+      "width": 800,
+      "height": 480
+    },
+    {
+      "name": "x",
+      "width": 1040,
+      "height": 780
+    },
+    {
+      "name": "x-portrait",
+      "width": 780,
+      "height": 1040
+    },
+    {
+      "name": "x-legacy",
+      "width": 1024,
+      "height": 768
+    }
+  ],
+  "language_count": 2,
+  "catalogue_entries": 30,
+  "renderedSizes": [
+    {
+      "device": "og",
+      "layout": "full",
+      "language": "en",
+      "width": 780,
+      "height": 460,
+      "pixelRatio": 1
+    },
+    {
+      "device": "og",
+      "layout": "full",
+      "language": "de",
+      "width": 780,
+      "height": 460,
+      "pixelRatio": 1
+    },
+    {
+      "device": "og",
+      "layout": "half_horizontal",
+      "language": "en",
+      "width": 780,
+      "height": 225,
+      "pixelRatio": 1
+    },
+    {
+      "device": "og",
+      "layout": "half_horizontal",
+      "language": "de",
+      "width": 780,
+      "height": 225,
+      "pixelRatio": 1
+    },
+    {
+      "device": "og",
+      "layout": "half_vertical",
+      "language": "en",
+      "width": 385,
+      "height": 460,
+      "pixelRatio": 1
+    },
+    {
+      "device": "og",
+      "layout": "half_vertical",
+      "language": "de",
+      "width": 385,
+      "height": 460,
+      "pixelRatio": 1
+    },
+    {
+      "device": "og",
+      "layout": "quadrant",
+      "language": "en",
+      "width": 375,
+      "height": 225,
+      "pixelRatio": 1
+    },
+    {
+      "device": "og",
+      "layout": "quadrant",
+      "language": "de",
+      "width": 375,
+      "height": 225,
+      "pixelRatio": 1
+    },
+    {
+      "device": "x",
+      "layout": "full",
+      "language": "en",
+      "width": 1020,
+      "height": 760,
+      "pixelRatio": 1.8
+    },
+    {
+      "device": "x",
+      "layout": "full",
+      "language": "de",
+      "width": 1020,
+      "height": 760,
+      "pixelRatio": 1.8
+    },
+    {
+      "device": "x",
+      "layout": "half_horizontal",
+      "language": "en",
+      "width": 1020,
+      "height": 375,
+      "pixelRatio": 1.8
+    },
+    {
+      "device": "x",
+      "layout": "half_horizontal",
+      "language": "de",
+      "width": 1020,
+      "height": 375,
+      "pixelRatio": 1.8
+    },
+    {
+      "device": "x",
+      "layout": "half_vertical",
+      "language": "en",
+      "width": 505,
+      "height": 760,
+      "pixelRatio": 1.8
+    },
+    {
+      "device": "x",
+      "layout": "half_vertical",
+      "language": "de",
+      "width": 505,
+      "height": 760,
+      "pixelRatio": 1.8
+    },
+    {
+      "device": "x",
+      "layout": "quadrant",
+      "language": "en",
+      "width": 495,
+      "height": 375,
+      "pixelRatio": 1.8
+    },
+    {
+      "device": "x",
+      "layout": "quadrant",
+      "language": "de",
+      "width": 495,
+      "height": 375,
+      "pixelRatio": 1.8
+    },
+    {
+      "device": "x-portrait",
+      "layout": "full",
+      "language": "en",
+      "width": 760,
+      "height": 1020,
+      "pixelRatio": 1.8
+    },
+    {
+      "device": "x-portrait",
+      "layout": "full",
+      "language": "de",
+      "width": 760,
+      "height": 1020,
+      "pixelRatio": 1.8
+    },
+    {
+      "device": "x-portrait",
+      "layout": "half_horizontal",
+      "language": "en",
+      "width": 760,
+      "height": 505,
+      "pixelRatio": 1.8
+    },
+    {
+      "device": "x-portrait",
+      "layout": "half_horizontal",
+      "language": "de",
+      "width": 760,
+      "height": 505,
+      "pixelRatio": 1.8
+    },
+    {
+      "device": "x-portrait",
+      "layout": "half_vertical",
+      "language": "en",
+      "width": 375,
+      "height": 1020,
+      "pixelRatio": 1.8
+    },
+    {
+      "device": "x-portrait",
+      "layout": "half_vertical",
+      "language": "de",
+      "width": 375,
+      "height": 1020,
+      "pixelRatio": 1.8
+    },
+    {
+      "device": "x-portrait",
+      "layout": "quadrant",
+      "language": "en",
+      "width": 375,
+      "height": 505,
+      "pixelRatio": 1.8
+    },
+    {
+      "device": "x-portrait",
+      "layout": "quadrant",
+      "language": "de",
+      "width": 375,
+      "height": 505,
+      "pixelRatio": 1.8
+    },
+    {
+      "device": "x-legacy",
+      "layout": "full",
+      "language": "en",
+      "width": 1003.9999994701809,
+      "height": 748.000033378602,
+      "pixelRatio": 1.7999999523162842
+    },
+    {
+      "device": "x-legacy",
+      "layout": "full",
+      "language": "de",
+      "width": 1003.9999994701809,
+      "height": 748.000033378602,
+      "pixelRatio": 1.7999999523162842
+    },
+    {
+      "device": "x-legacy",
+      "layout": "half_horizontal",
+      "language": "en",
+      "width": 1003.9999994701809,
+      "height": 369.0000165568462,
+      "pixelRatio": 1.7999999523162842
+    },
+    {
+      "device": "x-legacy",
+      "layout": "half_horizontal",
+      "language": "de",
+      "width": 1003.9999994701809,
+      "height": 369.0000165568462,
+      "pixelRatio": 1.7999999523162842
+    },
+    {
+      "device": "x-legacy",
+      "layout": "half_vertical",
+      "language": "en",
+      "width": 496.9999996026357,
+      "height": 748.000033378602,
+      "pixelRatio": 1.7999999523162842
+    },
+    {
+      "device": "x-legacy",
+      "layout": "half_vertical",
+      "language": "de",
+      "width": 496.9999996026357,
+      "height": 748.000033378602,
+      "pixelRatio": 1.7999999523162842
+    },
+    {
+      "device": "x-legacy",
+      "layout": "quadrant",
+      "language": "en",
+      "width": 486.99999933772614,
+      "height": 369.0000165568462,
+      "pixelRatio": 1.7999999523162842
+    },
+    {
+      "device": "x-legacy",
+      "layout": "quadrant",
+      "language": "de",
+      "width": 486.99999933772614,
+      "height": 369.0000165568462,
+      "pixelRatio": 1.7999999523162842
+    }
+  ],
+  "findings": [],
+  "runtime_errors": [],
+  "limitation": "Local native-framework previews; hosted TRMNL rendering and physical device verification still pending. The display changes on its next scheduled refresh."
+}

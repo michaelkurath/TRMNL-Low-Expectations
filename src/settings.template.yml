@@ -1,0 +1,25 @@
+---
+name: LOW EXPECTATIONS
+description: A fresh disappointment. Every day.
+strategy: static
+static_data: __CATALOGUE__
+no_screen_padding: 'no'
+dark_mode: 'no'
+framework_version: 3.4.3
+refresh_interval: 60
+custom_fields:
+  - keyname: author_bio
+    field_type: author_bio
+    name: About LOW EXPECTATIONS
+    category: humor,calendar
+    description: A daily tear-off calendar of dry humour. Prototype with 30 bilingual entries, repeating after 30 days.
+    github_url: https://github.com/michaelkurath/TRMNL-Low-Expectations
+  - keyname: language
+    name: Language
+    field_type: select
+    options:
+      - English: en
+      - Deutsch: de
+    default: en
+    optional: true
+    description: Choose the language for the calendar and its daily line.
