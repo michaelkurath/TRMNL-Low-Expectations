@@ -2,7 +2,9 @@
 
 ![Recipe overview](../assets/recipe-preview.png)
 
-The artwork and listing text are prepared for version 0.5.1. The latest version and icon are installed in TRMNL, and the [hosted review](validation.md#hosted-trmnl-review) passes. Physical device verification remains pending. The recipe has not been submitted: public submission accepts TRMNL's plugin licence, so that final action awaits the creator's confirmation.
+**Version 0.5.1 was submitted for public review on 18 October 2026.** TRMNL displayed "Submitted! We'll be in touch soon." and created a Recipe Review ticket. Human approval is pending; the recipe is not yet published. The current version and icon are installed, and the [hosted review](validation.md#hosted-trmnl-review) passes. Physical device verification remains pending.
+
+![TRMNL submission confirmation](hosted/submitted-2026-10-18.jpg)
 
 ## Listing
 
@@ -37,17 +39,28 @@ The screenshots are actual local browser renders of the Liquid source with TRMNL
 
 TRMNL accepts a custom [PNG or SVG icon](https://help.trmnl.com/en/articles/17507250-draw-a-plugin-icon-with-ai). The 512-pixel size is this project's export choice; the cited guidance does not specify a mandatory size.
 
-## Finish in TRMNL
+## Submission and review
 
 Already completed on 18 October 2026: import of the corrected markup, icon upload, the English/German review across 24 hosted layout/profile combinations, restoration of English, and generation of marketplace previews. These results are recorded in [hosted-review.json](hosted-review.json).
 
-The [prepared publication dialog](hosted/publication-dialog-2026-10-18.jpg) remains at the final choice of public visibility; no submission has been made.
+The creator then explicitly confirmed public submission under the linked [TRMNL plugin licence](https://trmnl.com/plugin-license), which applies CC BY 4.0 to the design, parsing logic, and markup, together with support and maintenance terms. The Public flow ran automated preflight checks and Chef review. After examining the findings below, the final **Submit anyway** action completed successfully.
 
-1. Open plugin 510794 and import the latest GitHub changes. Keep the repository folder blank.
-2. Click the plugin's icon and upload `assets/icon.svg` or `assets/icon-512.png`.
-3. Force Refresh in English and confirm the full-view render is current. Check Full and Quadrant on OG, and landscape/portrait on X. Review a German render as well.
-4. Set the master instance to English for the listing preview and Force Refresh again. The official recipe preview uses the master instance's latest generated full-view screen; the repository artwork does not replace it automatically.
-5. Use **Publish as a Recipe** and read the linked [TRMNL plugin licence](https://trmnl.com/plugin-license). In the current interface, **Public** submits a POST request; it is not a standalone Chef preview. Publishing applies CC BY 4.0 to the design, parsing logic, and markup, together with the licence's support and maintenance terms. Confirm acceptance before that action, then address any Chef findings during submission. A GitHub push does not submit the recipe.
+The verified [master settings page](https://trmnl.com/plugin_settings/510794/edit) shows the submission confirmation. No approved public recipe URL has been provided yet. A GitHub push alone does not submit a recipe.
+
+## Chef review
+
+Chef review **1230** returned five suggestions and one nitpick, with no blocking errors. The [captured review](hosted/chef-review-2026-10-18.jpg) shows the first part of the feedback. The findings were reviewed as follows; Chef did not issue a formal pass.
+
+| Finding | Disposition before submission |
+| --- | --- |
+| Verify larger date and quote sizing on X | Existing `.screen--lg` rules enlarge both. X landscape and portrait were already included in the 24 hosted checks, and the generated X image was visually reviewed. No further sizing change was made. |
+| Verify the language option format and lowercase stored values | The live selector contains English → `en` and Deutsch → `de`, with `en` selected. Both languages passed hosted checks. The existing YAML list of option maps was retained. |
+| Consider larger X footer and title bar text | The internal footer already has larger X rules. The title bar uses the native framework. This remains a design suggestion for human review. |
+| Reduce custom CSS through framework utilities | The layouts use native `view`, `layout`, and `title_bar` elements. Custom rules support the calendar treatment and responsive typography; the tested styling was retained. |
+| Check every layout and X portrait | Completed separately: all four layouts in two languages on OG, X landscape, and X portrait, with no detected overflow. |
+| Shorten the About text | The 119-word About text was retained to describe the plugin and satisfy the documented search-engine eligibility threshold. |
+
+The earlier preflight also suggested a title-bar include, a layout class, removal of a style block, and responsive utility classes. All four templates already contain native title-bar and layout elements. Responsiveness uses `.screen--lg` and `.screen--portrait` selectors. These heuristic hints were acknowledged after checking the source and hosted results.
 
 After publication, keep the Recipe Master suitable for its public preview and install the recipe separately for personal use, as [TRMNL recommends](https://help.trmnl.com/en/articles/12772238-demo-data-for-publishing-plugins). [Recipe publishing and preview behaviour](https://help.trmnl.com/en/articles/10122094-plugin-recipes) are documented by TRMNL.
 

@@ -324,15 +324,70 @@
     "docs/hosted/og-quadrant-de-2026-10-18.jpg",
     "docs/hosted/publication-dialog-2026-10-18.jpg",
     "docs/hosted/x-device-en-2026-10-18.jpg",
-    "docs/hosted/x-portrait-full-de-2026-10-18.jpg"
+    "docs/hosted/x-portrait-full-de-2026-10-18.jpg",
+    "docs/hosted/chef-review-2026-10-18.jpg",
+    "docs/hosted/submitted-2026-10-18.jpg"
   ],
   "physical_device_review": "pending",
-  "chef_review": "not run; the public submission POST action accepts the plugin licence",
+  "chef_review": {
+    "status": "completed with suggestions",
+    "review_id": 1230,
+    "reviewed_on": "2026-10-18",
+    "suggestion_count": 5,
+    "nitpick_count": 1,
+    "blocking_errors_reported": 0,
+    "formal_pass_issued": false,
+    "findings": [
+      {
+        "topic": "X date and quote scale",
+        "disposition": "Existing screen--lg rules and hosted X images reviewed; no additional change."
+      },
+      {
+        "topic": "Language option format",
+        "disposition": "Live selector verified: English=en, Deutsch=de; English selected. Both languages passed hosted previews; existing option maps retained."
+      },
+      {
+        "topic": "X footer and title bar scale",
+        "disposition": "Internal footer already scales on X; native title bar retained. Design suggestion remains for human review."
+      },
+      {
+        "topic": "Use more framework utilities",
+        "disposition": "Native view, layout, and title_bar elements are present; custom calendar styling retained."
+      },
+      {
+        "topic": "Review all layouts and X portrait",
+        "disposition": "Already completed: 24 hosted combinations with no detected overflow."
+      },
+      {
+        "topic": "Shorten About text",
+        "disposition": "119-word About retained for explanation and documented search-engine eligibility."
+      }
+    ],
+    "preflight_hints": {
+      "items": [
+        "Prefer title_bar include",
+        "No layout class detected",
+        "Style block detected",
+        "No responsive utility classes detected"
+      ],
+      "disposition": "Source includes native layout and title_bar elements; custom CSS uses screen--lg and screen--portrait selectors. Hints acknowledged after source and hosted-result review."
+    },
+    "source_changed_after_review": false,
+    "notes": "Chef suggestions were assessed and acknowledged with Submit anyway. This does not represent a formal Chef pass or human approval."
+  },
   "publication": {
-    "status": "awaiting licence confirmation",
-    "submitted": false,
+    "status": "submitted for public review",
+    "submitted": true,
+    "submitted_on": "2026-10-18",
+    "visibility_requested": "public",
     "licence_url": "https://trmnl.com/plugin-license",
-    "reason": "Public submission applies CC BY 4.0 and support/maintenance terms. Creator confirmation is required before accepting the licence."
+    "creator_confirmation_received": true,
+    "settings_url": "https://trmnl.com/plugin_settings/510794/edit",
+    "confirmation": "Submitted! We'll be in touch soon.",
+    "review_ticket": "Recipe Review ticket created by TRMNL",
+    "human_review": "pending",
+    "published": false,
+    "public_recipe_url": null
   },
   "limitation": "The 24 hosted previews cover current entry le-002 on 18 October 2026. The full 365-entry sweep is a local browser check. No physical device test is claimed."
 }

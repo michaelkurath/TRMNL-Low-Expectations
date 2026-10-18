@@ -48,6 +48,14 @@ See [the hosted review record](hosted-review.json) and the captured [OG full vie
 
 The [OG device-image capture](hosted/og-device-en-2026-10-18.jpg) and [X device-image capture](hosted/x-device-en-2026-10-18.jpg) show the final server-generated outputs with intact words. These are browser screenshots of the PNGs, whose original sizes are 800 × 480 and 1872 × 1404 respectively.
 
+## Submission review
+
+On 18 October 2026, the creator confirmed public submission under [TRMNL's plugin licence](https://trmnl.com/plugin-license). The automated preflight hints and AI Chef review (ID 1230) were examined before completing the submission. Chef reported five suggestions and one nitpick, with no blocking errors. [The review notes](recipe.md#chef-review) record the findings and their dispositions; they are not a claim that Chef awarded a pass.
+
+The live language selector was inspected and contained the actual values `en` and `de`, with English selected. The hosted layout and device-image checks above address the suggested X and portrait verification. The reviewed source was submitted without further markup or catalogue changes.
+
+TRMNL then displayed **"Submitted! We'll be in touch soon."** and created a **Recipe Review** ticket. See the [submission screenshot](hosted/submitted-2026-10-18.jpg) and [machine-readable record](hosted-review.json). Human review is pending; this is not a publication approval. Physical device verification remains pending.
+
 ## Repeat the layout checks
 
 Download and extract the Framework 3.4.3 ZIP and TRMNL font ZIP from the official release page. The framework directory should contain css/plugins.min.css; the font directory should contain the font files themselves.

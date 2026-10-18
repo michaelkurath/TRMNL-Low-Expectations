@@ -57,7 +57,7 @@ The account timezone controls the date. TRMNL supplies utc_offset in seconds; th
 
 Static data stays unchanged between refreshes; the Liquid template selects today's line when TRMNL renders the screen. A Force Refresh does not advance the rotation.
 
-A Developer add-on or BYOD licence is required to create a Private Plugin. Installing a future published recipe is a separate flow.
+A Developer add-on or BYOD licence is required to create a Private Plugin. Installation as a public recipe will be available after TRMNL approves the submission.
 
 ## Preview with trmnlp
 
@@ -96,9 +96,9 @@ For layout rendering, install Playwright Chromium and download the official Fram
 
 ## Current status
 
-The daily-selection tests, full-catalogue browser checks, and [24 hosted preview combinations](docs/validation.md#hosted-trmnl-review) pass. The current version and custom icon are installed in TRMNL plugin 510794. Its generated device image and marketplace previews have been reviewed. Physical device verification remains pending; the recipe has not been published.
+**Submitted for public review on 18 October 2026.** TRMNL confirms "Submitted! We'll be in touch soon." and created a Recipe Review ticket. Human approval is pending; the recipe is not yet published. See the [submission confirmation](docs/hosted/submitted-2026-10-18.jpg) and [Chef review notes](docs/recipe.md#chef-review).
 
-The full-year catalogue and [publication assets](docs/recipe.md) are complete. Public submission and Chef review await confirmation of TRMNL's plugin licence. Weekday-specific and seasonal lines remain outside this continuous rotation.
+The daily-selection tests, full-catalogue browser checks, and [24 hosted preview combinations](docs/validation.md#hosted-trmnl-review) pass. The current version and custom icon are installed in TRMNL plugin 510794. Its generated device image and marketplace previews have been reviewed. Chef completed with five suggestions and one nitpick, which were reviewed before submission. Physical device verification remains pending. Weekday-specific and seasonal lines remain outside this continuous rotation.
 
 ## References
 
