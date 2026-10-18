@@ -18,6 +18,19 @@ A working TRMNL calendar prototype with a paper binding, perforation, stacked pa
 
 This is a 30-day prototype, not a full-year edition. After 30 local days, the sequence repeats. The two languages show the same entry on the same local date.
 
+## Import from the linked GitHub repository
+
+This repository is linked to TRMNL plugin **510794**. Its ID is retained in src/settings.template.yml and the generated src/settings.yml.
+
+1. Open LOW EXPECTATIONS in TRMNL and find its GitHub section.
+2. Import the latest changes from GitHub. For this single-plugin repository, leave Folder in the repository blank.
+3. Confirm that Strategy is Static, the Static Data contains the catalogue, and the language field is available.
+4. Force Refresh and check the calendar.
+
+GitHub-to-TRMNL updates require a manual import. Saving settings or markup in TRMNL automatically exports them in the opposite direction, to GitHub. Import the repository version before saving a newly created blank plugin; otherwise its defaults replace the prepared repository settings.
+
+See [TRMNL GitHub Sync](https://help.trmnl.com/en/articles/15977899-github-sync) for the sync directions and setup.
+
 ## Install manually on TRMNL
 
 1. Create a Private Plugin named LOW EXPECTATIONS.
