@@ -110,7 +110,9 @@ test('all four layouts show the same date and quote', async () => {
   const rendered = await Promise.all(['full', 'half_horizontal', 'half_vertical', 'quadrant'].map(l => render(l)));
   assert.equal(new Set(rendered.map(entryId)).size, 1);
   assert.equal(new Set(rendered.map(localDate)).size, 1);
-  assert.equal(new Set(rendered.map(h => value(h, 'le-quote'))).size, 1);
+  const quotes = rendered.map(h => value(h, 'le-quote'));
+  assert.equal(quotes[0], catalogue.entries[0].en.replace(/\s+/g, ' ').trim());
+  assert.equal(new Set(quotes).size, 1);
 });
 test('generated settings contain the current catalogue and a short description', () => {
   const settings = fs.readFileSync(path.join(root, 'src/settings.yml'), 'utf8');

@@ -10,6 +10,7 @@ if (!frameworkDir || !fontsDir) {
 }
 const catalogue = JSON.parse(fs.readFileSync(path.join(root, 'data/static_data.json'), 'utf8'));
 const layouts = ['full', 'half_horizontal', 'half_vertical', 'quadrant'];
+const previewOnly = process.argv.includes('--preview');
 const devices = [
   {key:'og', width:800, height:480, classes:'screen--og screen--md screen--1bit'},
   {key:'x', width:1040, height:780, classes:'screen--v2 screen--lg screen--density-2x screen--4bit'},
@@ -91,6 +92,7 @@ async function main() {
             const publicHtml = screenHtml(markup,device,layout,'https://trmnl.com/css/3.4.3/plugins.css');
             fs.writeFileSync(path.join(root,'previews',basename+'.html'),publicHtml);
           }
+          if (previewOnly) continue;
           for (let i = 0; i < catalogue.entries.length; i++) {
             const iso = new Date((catalogue.epoch_local_day + i) * 86400000 + 12 * 3600000).toISOString();
             const nextMarkup = await render(layout, context(iso, 0, language));
@@ -106,6 +108,7 @@ async function main() {
               const view = document.querySelector('.le-view').getBoundingClientRect();
               for (const selector of ['.le-date','.le-quote','.le-masthead']) {
                 const node = paper.querySelector(selector);
+                if (selector === '.le-masthead' && getComputedStyle(node).display === 'none') continue;
                 const box = node.getBoundingClientRect();
                 if (box.left < paperBox.left - 1 || box.right > paperBox.right + 1 ||
                     box.top < paperBox.top - 1 || box.bottom > paperBox.bottom + 1 ||
@@ -125,6 +128,11 @@ async function main() {
           }
         }
       }
+    }
+    if (previewOnly) {
+      console.log(JSON.stringify({previews:renderedSizes.length,findings,runtimeErrors:errors}));
+      if (findings.length || errors.length) process.exitCode=1;
+      return;
     }
     const summary = {
       generated_at: new Date().toISOString(),

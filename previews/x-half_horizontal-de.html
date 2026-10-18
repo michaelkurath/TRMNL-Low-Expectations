@@ -1,92 +1,115 @@
 <!doctype html><html><head><meta charset="utf-8"><title>Low Expectations — x half_horizontal</title><link rel="stylesheet" href="https://trmnl.com/css/3.4.3/plugins.css"><style>html,body{margin:0;padding:0;background:white;} .screen{--screen-w:1040px;--screen-h:780px;width:1040px;height:780px;}</style></head><body class="trmnl"><div class="screen screen--v2 screen--lg screen--density-2x screen--4bit" style="--screen-w:1040px;--screen-h:780px;"><div class="mashup mashup--1Tx1B"><style>
-  .le-view .le-layout { padding: 14px 18px 10px; min-height: 0; display: flex; flex: 1; flex-direction: column; align-items: stretch; justify-content: stretch; gap: 0; }
+  .le-view .le-layout { padding: 12px 18px 10px; min-height: 0; display: flex; flex: 1; flex-direction: column; align-items: stretch; justify-content: stretch; gap: 0; }
   .le-view .le-paper, .le-view .le-paper * { box-sizing: border-box; }
-  .le-view .le-paper { color: #000; background: #fff; border: 2px solid #000; box-shadow: 3px 3px 0 #fff, 4px 4px 0 #000, 6px 6px 0 #fff, 7px 7px 0 #000; margin: 0 7px 7px 0; min-height: 0; flex: 1; display: flex; flex-direction: column; font-family: Arial, Helvetica, sans-serif; }
-  .le-view .le-binding { height: 24px; flex: 0 0 24px; position: relative; border-bottom: 2px dashed #000; }
-  .le-view .le-binding::before, .le-view .le-binding::after { content: ""; position: absolute; top: 6px; width: 28px; height: 9px; border: 2px solid #000; border-radius: 4px; }
-  .le-view .le-binding::before { left: 23%; }
-  .le-view .le-binding::after { right: 23%; }
-  .le-view .le-masthead { display: flex; flex: 0 0 auto; justify-content: space-between; align-items: center; gap: 8px; margin: 0 24px; padding: 14px 0 12px; border-bottom: 2px solid #000; }
-  .le-view .le-brand { font-size: 17px; font-weight: 700; letter-spacing: 2px; line-height: 1; }
-  .le-view .le-edition { font-size: 12px; line-height: 1; letter-spacing: 1px; }
-  .le-view .le-body { display: flex; flex: 1; min-height: 0; align-items: center; gap: 30px; padding: 20px 28px 20px 24px; }
-  .le-view .le-date { flex: 0 0 164px; text-align: center; padding-right: 24px; border-right: 1px solid #000; }
-  .le-view .le-weekday, .le-view .le-month { font-size: 12px; font-weight: 700; letter-spacing: 1px; line-height: 1.3; }
-  .le-view .le-number { font-family: Georgia, "Times New Roman", serif; font-size: 132px; font-weight: 400; letter-spacing: -6px; line-height: 1.12; padding-right: 5px; }
-  .le-view .le-quote { flex: 1; min-width: 0; margin: 0; padding: 0; font-family: Georgia, "Times New Roman", serif; font-size: 40px; font-weight: 400; line-height: 1.17; letter-spacing: -0.5px; white-space: pre-line; hyphens: auto; overflow-wrap: break-word; }
+  .le-view .le-paper { position: relative; color: #000; background: #fff; border: 0; border-bottom: 1px solid #000; margin: 0 0 7px; min-height: 0; flex: 1; display: flex; flex-direction: column; font-family: "Inter Variable", Arial, sans-serif; }
+  .le-view .le-paper::before, .le-view .le-paper::after { content: ""; position: absolute; height: 1px; background: #000; pointer-events: none; }
+  .le-view .le-paper::before { left: 5px; right: 5px; bottom: -4px; }
+  .le-view .le-paper::after { left: 10px; right: 10px; bottom: -7px; }
+  .le-view .le-binding { height: 21px; flex: 0 0 21px; position: relative; background: linear-gradient(to bottom, #000 0, #000 10px, #fff 10px, #fff 100%); border-bottom: 1px dashed #000; }
+  .le-view .le-binding::before, .le-view .le-binding::after { content: ""; position: absolute; top: 3px; width: 23px; height: 3px; background: #fff; }
+  .le-view .le-binding::before { left: 26%; }
+  .le-view .le-binding::after { right: 26%; }
+  .le-view .le-masthead { display: flex; flex: 0 0 auto; justify-content: space-between; align-items: baseline; gap: 12px; margin: 15px 26px 0; padding: 0; border: 0; }
+  .le-view .le-brand { font-family: Georgia, "Times New Roman", serif; font-style: italic; font-size: 18px; font-weight: 400; letter-spacing: 0; line-height: 1.2; }
+  .le-view .le-edition { font-size: 11px; line-height: 1; letter-spacing: 1px; }
+  .le-view .le-body { display: flex; flex: 1; min-height: 0; align-items: center; gap: 44px; padding: 18px 30px 18px 26px; }
+  .le-view .le-date { flex: 0 0 215px; text-align: center; padding: 0; border: 0; }
+  .le-view .le-weekday, .le-view .le-month { font-size: 12px; font-weight: 600; letter-spacing: 1.7px; line-height: 1.25; }
+  .le-view .le-number { font-family: "Inter Variable", Arial, sans-serif; font-variant-numeric: lining-nums tabular-nums; font-size: 184px; font-weight: 700; letter-spacing: -0.085em; line-height: 0.94; margin: 7px 0 8px; padding-right: 0.085em; }
+  .le-view .le-quote { flex: 1; min-width: 0; margin: 0; padding: 0; font-family: Georgia, "Times New Roman", serif; font-size: 39px; font-weight: 400; line-height: 1.16; letter-spacing: -0.4px; white-space: pre-line; hyphens: auto; overflow-wrap: break-word; }
+  .le-view .le-setup { display: block; font-family: "Inter Variable", Arial, sans-serif; font-size: 0.61em; font-weight: 400; font-style: normal; line-height: 1.35; letter-spacing: -0.015em; }
+  .le-view .le-punchline { display: block; margin-top: 13px; font-style: italic; line-height: 1.14; }
   .le-view .le-long .le-quote { font-size: 35px; }
-  .le-view .le-footer { flex: 0 0 auto; display: flex; justify-content: space-between; gap: 8px; margin: 0 24px; padding: 10px 0 11px; border-top: 1px solid #000; font-size: 11px; line-height: 1.1; letter-spacing: 1px; }
+  .le-view .le-dense .le-quote { font-size: 33px; }
+  .le-view .le-footer { display: flex; flex: 0 0 auto; justify-content: flex-end; gap: 12px; margin: 0 26px; padding: 3px 0 10px; border: 0; font-size: 10px; line-height: 1.2; letter-spacing: 0.9px; }
+  .le-view .le-footer-year { display: none; }
   .le-view .le-mark { width: 20px; height: 20px; }
-  .le-horizontal .le-layout, .le-quadrant .le-layout { padding: 8px 12px 8px; }
-  .le-horizontal .le-binding, .le-quadrant .le-binding { height: 13px; flex-basis: 13px; border-bottom-width: 1px; }
+  .le-horizontal .le-layout, .le-quadrant .le-layout { padding: 6px 12px 8px; }
+  .le-horizontal .le-binding, .le-quadrant .le-binding { height: 12px; flex-basis: 12px; background: linear-gradient(to bottom, #000 0, #000 5px, #fff 5px, #fff 100%); }
   .le-horizontal .le-binding::before, .le-horizontal .le-binding::after,
-  .le-quadrant .le-binding::before, .le-quadrant .le-binding::after { top: 2px; width: 22px; height: 7px; }
-  .le-horizontal .le-masthead { padding: 8px 0 7px; margin: 0 18px; }
-  .le-horizontal .le-brand { font-size: 13px; letter-spacing: 1.5px; }
-  .le-horizontal .le-body { padding: 9px 22px 9px 18px; gap: 24px; }
-  .le-horizontal .le-date { flex-basis: 130px; padding-right: 18px; }
-  .le-horizontal .le-number { font-size: 76px; line-height: 1; letter-spacing: -3px; }
-  .le-horizontal .le-weekday, .le-horizontal .le-month { font-size: 11px; letter-spacing: 0.7px; }
-  .le-horizontal .le-quote { font-size: 30px; line-height: 1.15; }
-  .le-horizontal .le-long .le-quote { font-size: 26px; }
-  .le-horizontal .le-footer { display: none; }
-  .le-vertical .le-masthead { margin: 0 18px; padding: 13px 0 11px; }
-  .le-vertical .le-brand { font-size: 14px; letter-spacing: 1.2px; }
-  .le-vertical .le-body { flex-direction: column; justify-content: center; gap: 12px; padding: 12px 20px; }
-  .le-vertical .le-date { flex: 0 0 auto; border-right: 0; padding: 0; }
-  .le-vertical .le-number { font-size: 96px; line-height: 1; }
-  .le-vertical .le-quote { flex: 0 0 auto; width: 100%; font-size: 26px; line-height: 1.18; text-align: center; }
-  .le-vertical .le-long .le-quote { font-size: 23px; }
-  .le-vertical .le-footer { margin: 0 18px; font-size: 11px; letter-spacing: 0.3px; }
-  .le-vertical .le-footer-tagline { display: none; }
-  .le-vertical .le-footer { justify-content: center; }
-  .le-quadrant .le-masthead { padding: 7px 0 6px; margin: 0 12px; }
-  .le-quadrant .le-brand { font-size: 12px; letter-spacing: 1px; }
-  .le-quadrant .le-edition { font-size: 11px; }
-  .le-quadrant .le-body { padding: 10px 14px 10px 12px; gap: 14px; }
-  .le-quadrant .le-date { flex-basis: 88px; padding-right: 12px; }
-  .le-quadrant .le-weekday, .le-quadrant .le-month { font-size: 11px; letter-spacing: 0; }
-  .le-quadrant .le-number { font-size: 70px; line-height: 1.05; letter-spacing: -3px; padding: 0; }
-  .le-quadrant .le-quote { font-size: 20px; line-height: 1.15; letter-spacing: -0.2px; }
-  .le-quadrant .le-long .le-quote { font-size: 18px; }
-  .le-quadrant .le-footer { display: none; }
-  .screen--lg .le-full .le-body { gap: 46px; padding: 30px 46px 30px 32px; }
-  .screen--lg .le-full .le-date { flex-basis: 230px; padding-right: 34px; }
-  .screen--lg .le-full .le-number { font-size: 204px; }
-  .screen--lg .le-full .le-weekday, .screen--lg .le-full .le-month { font-size: 18px; }
+  .le-quadrant .le-binding::before, .le-quadrant .le-binding::after { top: 1px; width: 16px; height: 2px; }
+  .le-horizontal .le-masthead, .le-vertical .le-masthead, .le-quadrant .le-masthead { display: none; }
+  .le-horizontal .le-body { gap: 34px; padding: 10px 24px 12px 18px; }
+  .le-horizontal .le-date { flex-basis: 168px; }
+  .le-horizontal .le-number { font-size: 100px; margin: 4px 0 5px; }
+  .le-horizontal .le-weekday, .le-horizontal .le-month { font-size: 11px; letter-spacing: 1.2px; }
+  .le-horizontal .le-quote { font-size: 30px; }
+  .le-horizontal .le-long .le-quote { font-size: 27px; }
+  .le-horizontal .le-dense .le-quote { font-size: 25px; }
+  .le-horizontal .le-punchline { margin-top: 8px; }
+  .le-horizontal .le-footer, .le-quadrant .le-footer { display: none; }
+  .le-vertical .le-binding { height: 17px; flex-basis: 17px; background: linear-gradient(to bottom, #000 0, #000 7px, #fff 7px, #fff 100%); }
+  .le-vertical .le-binding::before, .le-vertical .le-binding::after { top: 2px; width: 19px; height: 2px; }
+  .le-vertical .le-body { flex-direction: column; justify-content: center; gap: 23px; padding: 16px 24px; }
+  .le-vertical .le-date { flex: 0 0 auto; }
+  .le-vertical .le-number { font-size: 112px; margin: 5px 0 6px; }
+  .le-vertical .le-weekday, .le-vertical .le-month { font-size: 11px; letter-spacing: 1.4px; }
+  .le-vertical .le-quote { flex: 0 0 auto; width: 100%; font-size: 28px; text-align: center; }
+  .le-vertical .le-long .le-quote { font-size: 25px; }
+  .le-vertical .le-dense .le-quote { font-size: 23px; }
+  .le-vertical .le-punchline { margin-top: 10px; }
+  .le-vertical .le-footer { justify-content: space-between; margin: 0 18px; font-size: 9px; letter-spacing: 0.4px; }
+  .le-vertical .le-footer-year { display: inline; }
+  .le-quadrant .le-body { gap: 20px; padding: 12px 14px 12px 10px; }
+  .le-quadrant .le-date { flex-basis: 94px; }
+  .le-quadrant .le-number { font-size: 78px; margin: 5px 0; }
+  .le-quadrant .le-weekday, .le-quadrant .le-month { font-size: 10px; letter-spacing: 0.35px; }
+  .le-quadrant .le-quote { font-size: 22px; letter-spacing: -0.2px; }
+  .le-quadrant .le-long .le-quote { font-size: 20px; }
+  .le-quadrant .le-dense .le-quote { font-size: 18px; }
+  .le-quadrant .le-setup { font-size: 0.68em; }
+  .le-quadrant .le-punchline { margin-top: 7px; }
+  .screen--lg .le-full .le-body { gap: 58px; padding: 28px 44px 28px 34px; }
+  .screen--lg .le-full .le-date { flex-basis: 310px; }
+  .screen--lg .le-full .le-number { font-size: 280px; line-height: 1; }
+  .screen--lg .le-full .le-weekday, .screen--lg .le-full .le-month { font-size: 18px; letter-spacing: 2px; }
   .screen--lg .le-full .le-quote { font-size: 54px; }
   .screen--lg .le-full .le-long .le-quote { font-size: 48px; }
-  .screen--lg .le-full .le-brand { font-size: 22px; }
-  .screen--lg .le-full .le-masthead { padding: 22px 0 18px; }
-  .screen--lg .le-full .le-binding { height: 30px; flex-basis: 30px; }
-  .screen--lg .le-horizontal .le-number { font-size: 120px; }
-  .screen--lg .le-horizontal .le-date { flex-basis: 176px; }
+  .screen--lg .le-full .le-dense .le-quote { font-size: 44px; }
+  .screen--lg .le-full .le-brand { font-size: 25px; }
+  .screen--lg .le-full .le-masthead { margin: 23px 34px 0; }
+  .screen--lg .le-full .le-binding { height: 27px; flex-basis: 27px; background: linear-gradient(to bottom, #000 0, #000 13px, #fff 13px, #fff 100%); }
+  .screen--lg .le-full .le-binding::before, .screen--lg .le-full .le-binding::after { top: 4px; height: 4px; width: 30px; }
+  .screen--lg .le-full .le-footer { margin: 0 34px; padding-bottom: 15px; font-size: 12px; }
+  .screen--lg .le-horizontal .le-number { font-size: 158px; }
+  .screen--lg .le-horizontal .le-date { flex-basis: 220px; }
+  .screen--lg .le-horizontal .le-weekday, .screen--lg .le-horizontal .le-month { font-size: 14px; }
   .screen--lg .le-horizontal .le-quote { font-size: 42px; }
-  .screen--lg .le-horizontal .le-long .le-quote { font-size: 36px; }
-  .screen--lg .le-horizontal .le-body { padding: 16px 28px 16px 22px; gap: 32px; }
-  .screen--lg .le-vertical .le-number { font-size: 176px; }
-  .screen--lg .le-vertical .le-body { gap: 34px; padding: 28px 32px; }
+  .screen--lg .le-horizontal .le-long .le-quote { font-size: 38px; }
+  .screen--lg .le-horizontal .le-dense .le-quote { font-size: 35px; }
+  .screen--lg .le-horizontal .le-body { padding: 18px 32px; gap: 44px; }
+  .screen--lg .le-vertical .le-number { font-size: 190px; }
+  .screen--lg .le-vertical .le-weekday, .screen--lg .le-vertical .le-month { font-size: 14px; }
+  .screen--lg .le-vertical .le-body { gap: 32px; padding: 24px 32px; }
   .screen--lg .le-vertical .le-quote { font-size: 40px; }
-  .screen--lg .le-vertical .le-long .le-quote { font-size: 35px; }
-  .screen--lg .le-vertical .le-brand { font-size: 18px; }
-  .screen--lg .le-quadrant .le-number { font-size: 108px; }
-  .screen--lg .le-quadrant .le-date { flex-basis: 122px; padding-right: 18px; }
-  .screen--lg .le-quadrant .le-body { gap: 20px; padding: 18px; }
-  .screen--lg .le-quadrant .le-quote { font-size: 29px; }
-  .screen--lg .le-quadrant .le-long .le-quote { font-size: 25px; }
-  .screen--lg .le-quadrant .le-brand { font-size: 15px; }
-  .screen--portrait .le-full .le-body { flex-direction: column; justify-content: center; gap: 34px; }
-  .screen--portrait .le-full .le-date { flex: 0 0 auto; border: 0; padding: 0; }
-  .screen--portrait .le-full .le-quote { flex: 0 0 auto; text-align: center; width: 100%; }
-  .screen--portrait .le-vertical .le-quote { font-size: 30px; }
-  .screen--portrait .le-vertical .le-long .le-quote { font-size: 26px; }
-  .screen--portrait .le-quadrant .le-body { flex-direction: column; justify-content: center; gap: 16px; padding: 14px 18px; }
-  .screen--portrait .le-quadrant .le-date { flex: 0 0 auto; border-right: 0; padding: 0; }
-  .screen--portrait .le-quadrant .le-number { font-size: 90px; }
-  .screen--portrait .le-quadrant .le-quote { flex: 0 0 auto; width: 100%; text-align: center; font-size: 26px; }
-  .screen--portrait .le-quadrant .le-long .le-quote { font-size: 23px; }
+  .screen--lg .le-vertical .le-long .le-quote { font-size: 36px; }
+  .screen--lg .le-vertical .le-dense .le-quote { font-size: 33px; }
+  .screen--lg .le-vertical .le-footer { font-size: 11px; padding-bottom: 12px; }
+  .screen--lg .le-quadrant .le-number { font-size: 122px; }
+  .screen--lg .le-quadrant .le-date { flex-basis: 146px; }
+  .screen--lg .le-quadrant .le-weekday, .screen--lg .le-quadrant .le-month { font-size: 13px; }
+  .screen--lg .le-quadrant .le-body { gap: 28px; padding: 18px; }
+  .screen--lg .le-quadrant .le-quote { font-size: 31px; }
+  .screen--lg .le-quadrant .le-long .le-quote { font-size: 28px; }
+  .screen--lg .le-quadrant .le-dense .le-quote { font-size: 26px; }
+  .screen--portrait .le-full .le-body { flex-direction: column; justify-content: center; gap: 42px; padding: 30px 48px; }
+  .screen--portrait .le-full .le-date { flex: 0 0 auto; }
+  .screen--portrait .le-full .le-number { font-size: 260px; }
+  .screen--portrait .le-full .le-quote { flex: 0 0 auto; width: 100%; font-size: 51px; }
+  .screen--portrait .le-full .le-long .le-quote { font-size: 46px; }
+  .screen--portrait .le-full .le-dense .le-quote { font-size: 42px; }
+  .screen--portrait .le-vertical .le-number { font-size: 172px; }
+  .screen--portrait .le-vertical .le-quote { font-size: 32px; }
+  .screen--portrait .le-vertical .le-long .le-quote { font-size: 29px; }
+  .screen--portrait .le-vertical .le-dense .le-quote { font-size: 26px; }
+  .screen--portrait .le-quadrant .le-body { flex-direction: column; justify-content: center; gap: 20px; padding: 16px 22px; }
+  .screen--portrait .le-quadrant .le-date { flex: 0 0 auto; }
+  .screen--portrait .le-quadrant .le-number { font-size: 116px; }
+  .screen--portrait .le-quadrant .le-quote { flex: 0 0 auto; width: 100%; text-align: center; font-size: 27px; }
+  .screen--portrait .le-quadrant .le-long .le-quote { font-size: 24px; }
+  .screen--portrait .le-quadrant .le-dense .le-quote { font-size: 22px; }
 </style><div class="view view--half_horizontal le-view le-horizontal">
-  <div class="layout le-layout"><article class="le-paper " lang="de" data-entry-id="le-001" data-local-date="2026-10-17">
+  <div class="layout le-layout"><article class="le-paper " lang="de" aria-label="TÄGLICHE DEMOTIVATION 2026-10-17" data-entry-id="le-001" data-local-date="2026-10-17">
   <div class="le-binding" aria-hidden="true"></div>
   <header class="le-masthead"><span class="le-brand">Low Expectations</span><span class="le-edition">2026</span></header>
   <div class="le-body">
@@ -95,11 +118,10 @@
       <div class="le-number">17</div>
       <div class="le-month">OKTOBER</div>
     </div>
-    <blockquote class="le-quote">Morgen ist ein Neuanfang.
-Für die gleichen Probleme.</blockquote>
+    <blockquote class="le-quote"><span class="le-setup">Morgen ist ein Neuanfang.</span><span class="le-punchline">Für die gleichen Probleme.</span></blockquote>
   </div>
   <footer class="le-footer">
-    <span class="le-footer-tagline">TÄGLICHE DEMOTIVATION</span>
+    <span class="le-footer-year">2026</span>
     <span>TAG 290 VON 365</span>
   </footer>
 </article></div>
@@ -107,7 +129,7 @@ Für die gleichen Probleme.</blockquote>
     <svg class="image le-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
   <path d="M4 5h16v16H4zM4 10h16M8 2v6M16 2v6M8 15h8"/>
 </svg>
-    <span class="title">TÄGLICHE DEMOTIVATION</span>
+    <span class="title">Low Expectations</span>
     <span class="instance">Deutsch</span>
   </div>
 </div>

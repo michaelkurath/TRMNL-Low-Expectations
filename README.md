@@ -4,7 +4,9 @@ A fresh disappointment. Every day.
 
 [GitHub repository](https://github.com/michaelkurath/TRMNL-Low-Expectations) · [All 365 entries](docs/quotes.md) · [Setup and validation](docs/validation.md)
 
-A TRMNL tear-off calendar with a paper binding, perforation, stacked page edges, a large date, and one dry line of advice per local day.
+A TRMNL tear-off calendar with a black binding, fine page edges, a bold date, and one dry line of advice per local day.
+
+![Calendar before and after the visual redesign](docs/design/comparison.png)
 
 ## What is included
 
@@ -18,7 +20,9 @@ A TRMNL tear-off calendar with a paper binding, perforation, stacked page edges,
 
 This edition has a full year of content: 365 entries, repeating after 365 local days. The two languages show the same entry on the same local date. The rotation continues through New Year and treats 29 February as an ordinary day; entries are not tied to fixed month/day dates.
 
-Version 0.4.0 adds entries le-091 to le-365. The first 90 entries and the anchor date are unchanged; their initial dates retain the same lines. The longer cycle changes what appears after those first 90 days. The collection mixes everyday frustrations, bad advice, technology, travel, shopping, domestic chores, and work.
+Version 0.5.0 revises the calendar's visual design: a bold sans-serif date, a restrained binding, and a smaller setup followed by a larger italic punchline. All four layouts retain the native TRMNL title bar. The 365 bilingual entries, their order, and the anchor date remain as in catalogue version 0.4.0.
+
+The collection mixes everyday frustrations, bad advice, technology, travel, shopping, domestic chores, and work.
 
 ## Import from the linked GitHub repository
 
@@ -59,6 +63,8 @@ The directory follows the usual trmnlp source structure. The supplied .trmnlp.ym
 Change custom_fields.language to de for German. Change time_zone for another preview location. Do not put account API keys into this project.
 
 The HTML files in previews/ are fixed renders of 17 October 2026, with links to the pinned native framework stylesheet. Open previews/index.html to choose one. They are visual references; the installed Liquid plugin uses the current date.
+
+For a quick set of browser screenshots, use `npm run preview` with the framework and font environment variables described in [validation](docs/validation.md). This skips the full catalogue sweep and preserves its validation report.
 
 ## Edit the content
 

@@ -26,8 +26,8 @@ async function render(layout = 'full', input = context()) {
   return engine.render(compiled.get(layout), input);
 }
 function value(html, className) {
-  const match = html.match(new RegExp('<[^>]+class="' + className + '"[^>]*>([^<]*)<'));
-  return match ? match[1] : null;
+  const match = html.match(new RegExp('<([a-z][\\w:-]*)[^>]*class="' + className + '"[^>]*>([\\s\\S]*?)</\\1>'));
+  return match ? match[2].replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim() : null;
 }
 function entryId(html) {
   return html.match(/data-entry-id="([^"]+)"/)[1];

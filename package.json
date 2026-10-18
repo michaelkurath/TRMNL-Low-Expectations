@@ -1,13 +1,14 @@
 {
   "name": "trmnl-low-expectations",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "private": true,
   "description": "A daily tear-off calendar of dry humour for TRMNL.",
   "scripts": {
     "build": "node scripts/build.js",
     "check": "node scripts/build.js --check",
     "test": "node --test tests/daily.test.js",
-    "render": "node scripts/render.js"
+    "render": "node scripts/render.js",
+    "preview": "node scripts/render.js --preview"
   },
   "devDependencies": {
     "liquidjs": "10.21.1",

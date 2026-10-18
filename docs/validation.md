@@ -1,4 +1,4 @@
-# Validation of version 0.4.0
+# Validation of version 0.5.0
 
 ## Daily selection
 
@@ -32,7 +32,9 @@ These figures describe full screens. Native framework margins and mashup gaps re
 
 Framework 3.4.3 and its official TRMNL font bundle were used with Chromium 153.0.8010.0. The browser loads the real native framework stylesheet, not a replacement layout shim. The check measures date, quote, and masthead bounds within the calendar, and the calendar within the view.
 
-Longer text receives a smaller quote size. German long words may hyphenate or wrap when needed. X portrait quadrants stack the date and quote.
+The visual design uses a bold Inter date, a narrow black binding, and fine page edges. Entries with a line break have a smaller sans-serif setup and a larger italic serif punchline. Single-line entries remain one serif block. Longer text receives a smaller quote size. German long words may hyphenate or wrap when needed. X portrait quadrants stack the date and quote. Small layouts omit the internal masthead; the native title bar displays Low Expectations in every layout.
+
+The full and small layouts were also reviewed as screenshots in both languages. [Before and after](design/comparison.png) shows the same date and English entry on OG at the same scale. This edition changes presentation; the catalogue remains version 0.4.0 with its original entry order and anchor date.
 
 The machine-readable result is docs/render-results.json.
 
@@ -49,7 +51,9 @@ Optional environment variables:
 - LE_BROWSER_PATH: a Chromium executable, if the default Playwright browser is unavailable.
 - LE_LIQUIDJS_PATH: a LiquidJS module, for an existing external runtime.
 
-The script generates local PNGs for visual inspection, static HTML reference previews, and render-results.json. PNGs are QA intermediates and are excluded from the distribution archive.
+The script generates local PNGs for visual inspection, static HTML reference previews, and render-results.json. The previews directory's PNGs are ignored by Git. Selected design reference images in docs/design are committed.
+
+For a quick visual pass, replace `npm run render` with `npm run preview` using the same environment variables. It creates the 32 reference screenshots and refreshes the HTML previews, skips the catalogue sweep, and leaves render-results.json unchanged.
 
 ## Limits
 
