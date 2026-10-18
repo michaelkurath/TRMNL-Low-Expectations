@@ -14,24 +14,24 @@ id: 510794
 oauth_enabled: 'false'
 oauth_pkce_enabled: 'no'
 custom_fields:
-  - keyname: author_bio
-    field_type: author_bio
-    name: About Low Expectations
-    category: humor,calendar
-    description: |-
-      Low Expectations is a daily tear-off calendar for anyone who has had enough encouragement. Each page pairs the date with a short piece of dry, demotivating advice: a small reminder that tomorrow can bring the same problems in a fresh arrangement.
-      Choose English or German. The calendar includes 365 paired entries and shows the same entry throughout your local day, even if you refresh it again. The sequence continues through New Year and leap days, then repeats after 365 days.
-      The design adapts to Full, Half Horizontal, Half Vertical, and Quadrant layouts on TRMNL OG and X, including portrait. Everything is included in the plugin: no quote service, API key, or external account is needed. Created by Michael Kurath.
-    github_url: https://github.com/michaelkurath/TRMNL-Low-Expectations
-  - keyname: language
-    name: Language
-    field_type: select
-    options:
-      - English: en
-      - Deutsch: de
-    default: en
-    optional: true
-    description: Choose the language for the calendar and its daily line.
+- keyname: author_bio
+  field_type: author_bio
+  name: About Low Expectations
+  category: humor,calendar
+  description: |-
+    Low Expectations is a daily tear-off calendar for anyone who has had enough encouragement. Each page pairs the date with a short piece of dry, demotivating advice: a small reminder that tomorrow can bring the same problems in a fresh arrangement.
+    Choose English or German. The calendar includes 365 paired entries and shows the same entry throughout your local day, even if you refresh it again. The sequence continues through New Year and leap days, then repeats after 365 days.
+    The design adapts to Full, Half Horizontal, Half Vertical, and Quadrant layouts on TRMNL OG and X, including portrait. Everything is included in the plugin: no quote service, API key, or external account is needed. Created by Michael Kurath.
+  github_url: https://github.com/michaelkurath/TRMNL-Low-Expectations
+- keyname: language
+  name: Language
+  field_type: select
+  options:
+  - English: en
+  - Deutsch: de
+  default: en
+  optional: true
+  description: Choose the language for the calendar and its daily line.
 name: Low Expectations
 description: A fresh disappointment. Every day.
 refresh_interval: 60
