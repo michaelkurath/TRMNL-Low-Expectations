@@ -25,6 +25,8 @@ This edition has a full year of content: 365 entries, repeating after 365 local 
 
 Version 0.5.0 revises the calendar's visual design: a bold sans-serif date, a restrained binding, and a smaller setup followed by a larger italic punchline. All four layouts retain the native TRMNL title bar. The 365 bilingual entries, their order, and the anchor date remain as in catalogue version 0.4.0.
 
+Version 0.5.1 removes automatic quote hyphenation after TRMNL's generated device PNG split an ordinary English word that remained intact in the live preview.
+
 The collection mixes everyday frustrations, bad advice, technology, travel, shopping, domestic chores, and work.
 
 ## Import from the linked GitHub repository
@@ -94,9 +96,9 @@ For layout rendering, install Playwright Chromium and download the official Fram
 
 ## Current status
 
-The daily-selection tests and native-framework browser layout checks pass. The repository is linked to TRMNL plugin 510794, and its latest export retains the Static catalogue and language field. Hosted rendering and physical device verification remain release checks; the recipe has not been published.
+The daily-selection tests, full-catalogue browser checks, and [24 hosted preview combinations](docs/validation.md#hosted-trmnl-review) pass. The current version and custom icon are installed in TRMNL plugin 510794. Its generated device image and marketplace previews have been reviewed. Physical device verification remains pending; the recipe has not been published.
 
-The full-year catalogue and [publication assets](docs/recipe.md) are complete. Import the latest settings, upload the icon, and complete hosted and physical device review before submitting the recipe in TRMNL. Weekday-specific and seasonal lines remain outside this continuous rotation.
+The full-year catalogue and [publication assets](docs/recipe.md) are complete. Public submission and Chef review await confirmation of TRMNL's plugin licence. Weekday-specific and seasonal lines remain outside this continuous rotation.
 
 ## References
 

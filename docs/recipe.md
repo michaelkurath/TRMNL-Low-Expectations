@@ -2,7 +2,7 @@
 
 ![Recipe overview](../assets/recipe-preview.png)
 
-The artwork and listing text are prepared for version 0.5.0. The recipe has not been submitted. Hosted rendering and a physical device review are still pending.
+The artwork and listing text are prepared for version 0.5.1. The latest version and icon are installed in TRMNL, and the [hosted review](validation.md#hosted-trmnl-review) passes. Physical device verification remains pending. The recipe has not been submitted: public submission accepts TRMNL's plugin licence, so that final action awaits the creator's confirmation.
 
 ## Listing
 
@@ -39,11 +39,15 @@ TRMNL accepts a custom [PNG or SVG icon](https://help.trmnl.com/en/articles/1750
 
 ## Finish in TRMNL
 
+Already completed on 18 October 2026: import of the corrected markup, icon upload, the English/German review across 24 hosted layout/profile combinations, restoration of English, and generation of marketplace previews. These results are recorded in [hosted-review.json](hosted-review.json).
+
+The [prepared publication dialog](hosted/publication-dialog-2026-10-18.jpg) remains at the final choice of public visibility; no submission has been made.
+
 1. Open plugin 510794 and import the latest GitHub changes. Keep the repository folder blank.
 2. Click the plugin's icon and upload `assets/icon.svg` or `assets/icon-512.png`.
 3. Force Refresh in English and confirm the full-view render is current. Check Full and Quadrant on OG, and landscape/portrait on X. Review a German render as well.
 4. Set the master instance to English for the listing preview and Force Refresh again. The official recipe preview uses the master instance's latest generated full-view screen; the repository artwork does not replace it automatically.
-5. Use **Publish as a Recipe**, run Chef, and resolve any concrete findings before submitting for public review. The publication request must be made in TRMNL; a GitHub push does not submit it.
+5. Use **Publish as a Recipe** and read the linked [TRMNL plugin licence](https://trmnl.com/plugin-license). In the current interface, **Public** submits a POST request; it is not a standalone Chef preview. Publishing applies CC BY 4.0 to the design, parsing logic, and markup, together with the licence's support and maintenance terms. Confirm acceptance before that action, then address any Chef findings during submission. A GitHub push does not submit the recipe.
 
 After publication, keep the Recipe Master suitable for its public preview and install the recipe separately for personal use, as [TRMNL recommends](https://help.trmnl.com/en/articles/12772238-demo-data-for-publishing-plugins). [Recipe publishing and preview behaviour](https://help.trmnl.com/en/articles/10122094-plugin-recipes) are documented by TRMNL.
 

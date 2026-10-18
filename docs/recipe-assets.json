@@ -1,5 +1,5 @@
 {
-  "version": "0.5.0",
+  "version": "0.5.1",
   "reference_date": "2026-10-17",
   "source": "LiquidJS + local TRMNL Framework 3.4.3 browser renders",
   "icon": {
@@ -58,7 +58,8 @@
     }
   ],
   "about_word_count": 119,
-  "hosted_render_review": "pending",
+  "hosted_render_review": "passed",
+  "hosted_review_report": "docs/hosted-review.json",
   "physical_device_review": "pending",
-  "publication": "not submitted"
+  "publication": "awaiting licence confirmation"
 }

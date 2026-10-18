@@ -1,0 +1,338 @@
+{
+  "version": "0.5.1",
+  "reviewed_at": "2026-10-18T13:35:10.844597+00:00",
+  "plugin_id": 510794,
+  "reviewed_source_commit": "f4d85b8110db813cc285369dcb2fda7b9dcd77c1",
+  "source": "TRMNL hosted markup editor and standalone preview",
+  "source_sha256": {
+    "src/shared.liquid": "594f5f6efb0d114012cab51259c86f81be689e655917866e626cd0969188aeb6",
+    "src/full.liquid": "68f069fe143c4d5d5e8eca6b4e620ee8a4cca2fd531a7b44e17021b12c062dab",
+    "src/half_horizontal.liquid": "90c7c0687b0a96965d91648526c152684c5b54124f1a48addce91f92a729f155",
+    "src/half_vertical.liquid": "a3245ab2be9df43ba8c63ac78b0ca6a2c5b2ab8b67754edd022b6155d5c2b1a8",
+    "src/quadrant.liquid": "4e52a0edf1132e4f295843eabed5315ba8035672c7464ade82649a565b0b5a7c",
+    "data/static_data.json": "c14a1239582aab25902f4b7a7cac61e3c088cc18b09f5d5221bb09fadbc9a3c4"
+  },
+  "previews": [
+    {
+      "profile": "OG",
+      "layout": "Full",
+      "language": "en",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        780,
+        460
+      ],
+      "issues": []
+    },
+    {
+      "profile": "OG",
+      "layout": "Half horizontal",
+      "language": "en",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        780,
+        225
+      ],
+      "issues": []
+    },
+    {
+      "profile": "OG",
+      "layout": "Half vertical",
+      "language": "en",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        385,
+        460
+      ],
+      "issues": []
+    },
+    {
+      "profile": "OG",
+      "layout": "Quadrant",
+      "language": "en",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        385,
+        225
+      ],
+      "issues": []
+    },
+    {
+      "profile": "X",
+      "layout": "Full",
+      "language": "en",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        1020,
+        760
+      ],
+      "issues": []
+    },
+    {
+      "profile": "X",
+      "layout": "Half horizontal",
+      "language": "en",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        1020,
+        375
+      ],
+      "issues": []
+    },
+    {
+      "profile": "X",
+      "layout": "Half vertical",
+      "language": "en",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        505,
+        760
+      ],
+      "issues": []
+    },
+    {
+      "profile": "X",
+      "layout": "Quadrant",
+      "language": "en",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        505,
+        375
+      ],
+      "issues": []
+    },
+    {
+      "profile": "X portrait",
+      "layout": "Full",
+      "language": "en",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        760,
+        1020
+      ],
+      "issues": []
+    },
+    {
+      "profile": "X portrait",
+      "layout": "Half horizontal",
+      "language": "en",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        760,
+        505
+      ],
+      "issues": []
+    },
+    {
+      "profile": "X portrait",
+      "layout": "Half vertical",
+      "language": "en",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        375,
+        1020
+      ],
+      "issues": []
+    },
+    {
+      "profile": "X portrait",
+      "layout": "Quadrant",
+      "language": "en",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        375,
+        505
+      ],
+      "issues": []
+    },
+    {
+      "profile": "OG",
+      "layout": "Full",
+      "language": "de",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        780,
+        460
+      ],
+      "issues": []
+    },
+    {
+      "profile": "OG",
+      "layout": "Half horizontal",
+      "language": "de",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        780,
+        225
+      ],
+      "issues": []
+    },
+    {
+      "profile": "OG",
+      "layout": "Half vertical",
+      "language": "de",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        385,
+        460
+      ],
+      "issues": []
+    },
+    {
+      "profile": "OG",
+      "layout": "Quadrant",
+      "language": "de",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        385,
+        225
+      ],
+      "issues": []
+    },
+    {
+      "profile": "X",
+      "layout": "Full",
+      "language": "de",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        1020,
+        760
+      ],
+      "issues": []
+    },
+    {
+      "profile": "X",
+      "layout": "Half horizontal",
+      "language": "de",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        1020,
+        375
+      ],
+      "issues": []
+    },
+    {
+      "profile": "X",
+      "layout": "Half vertical",
+      "language": "de",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        505,
+        760
+      ],
+      "issues": []
+    },
+    {
+      "profile": "X",
+      "layout": "Quadrant",
+      "language": "de",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        505,
+        375
+      ],
+      "issues": []
+    },
+    {
+      "profile": "X portrait",
+      "layout": "Full",
+      "language": "de",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        760,
+        1020
+      ],
+      "issues": []
+    },
+    {
+      "profile": "X portrait",
+      "layout": "Half horizontal",
+      "language": "de",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        760,
+        505
+      ],
+      "issues": []
+    },
+    {
+      "profile": "X portrait",
+      "layout": "Half vertical",
+      "language": "de",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        375,
+        1020
+      ],
+      "issues": []
+    },
+    {
+      "profile": "X portrait",
+      "layout": "Quadrant",
+      "language": "de",
+      "date": "2026-10-18",
+      "entry": "le-002",
+      "view_size": [
+        375,
+        505
+      ],
+      "issues": []
+    }
+  ],
+  "server_render": {
+    "status": "passed",
+    "og_device_png_size": [
+      800,
+      480
+    ],
+    "x_device_png_size": [
+      1872,
+      1404
+    ],
+    "device_png_review": "passed",
+    "automatic_quote_hyphenation": "disabled; ordinary words remain intact in the generated images"
+  },
+  "icon_upload": "passed",
+  "master_language": "en",
+  "marketplace_previews": "generated in TRMNL and visually reviewed for OG and X",
+  "screenshots": [
+    "docs/hosted/og-device-en-2026-10-18.jpg",
+    "docs/hosted/og-full-en-2026-10-18.jpg",
+    "docs/hosted/og-quadrant-de-2026-10-18.jpg",
+    "docs/hosted/publication-dialog-2026-10-18.jpg",
+    "docs/hosted/x-device-en-2026-10-18.jpg",
+    "docs/hosted/x-portrait-full-de-2026-10-18.jpg"
+  ],
+  "physical_device_review": "pending",
+  "chef_review": "not run; the public submission POST action accepts the plugin licence",
+  "publication": {
+    "status": "awaiting licence confirmation",
+    "submitted": false,
+    "licence_url": "https://trmnl.com/plugin-license",
+    "reason": "Public submission applies CC BY 4.0 and support/maintenance terms. Creator confirmation is required before accepting the licence."
+  },
+  "limitation": "The 24 hosted previews cover current entry le-002 on 18 October 2026. The full 365-entry sweep is a local browser check. No physical device test is claimed."
+}

@@ -1,6 +1,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const { execFileSync } = require('node:child_process');
+const { createHash } = require('node:crypto');
 const { chromium } = require('playwright');
 const { parse } = require('yaml');
 const root = path.resolve(__dirname, '..');
@@ -70,8 +71,14 @@ async function main() {
   const about = settings.custom_fields.find(field => field.keyname === 'author_bio').description;
   const words = about.trim().split(/\s+/).length;
   if (words < 100) throw new Error('The recipe About text should contain at least 100 words for search-engine eligibility.');
+  const version = JSON.parse(fs.readFileSync(path.join(root, 'package.json'), 'utf8')).version;
+  const reviewPath = path.join(root, 'docs/hosted-review.json');
+  const review = fs.existsSync(reviewPath) ? JSON.parse(fs.readFileSync(reviewPath, 'utf8')) : null;
+  const sourceFiles = ['src/shared.liquid', 'src/full.liquid', 'src/half_horizontal.liquid', 'src/half_vertical.liquid', 'src/quadrant.liquid', 'data/static_data.json'];
+  const reviewIsCurrent = review?.version === version && sourceFiles.every(filename =>
+    review.source_sha256?.[filename] === createHash('sha256').update(fs.readFileSync(path.join(root, filename))).digest('hex'));
   const manifest = {
-    version: JSON.parse(fs.readFileSync(path.join(root, 'package.json'), 'utf8')).version,
+    version,
     reference_date: '2026-10-17',
     source: 'LiquidJS + local TRMNL Framework 3.4.3 browser renders',
     icon: { svg: 'assets/icon.svg', png: 'assets/icon-512.png', width: 512, height: 512 },
@@ -82,9 +89,10 @@ async function main() {
       return { file, label, width: bytes.readUInt32BE(16), height: bytes.readUInt32BE(20) };
     }),
     about_word_count: words,
-    hosted_render_review: 'pending',
-    physical_device_review: 'pending',
-    publication: 'not submitted'
+    hosted_render_review: reviewIsCurrent && review.previews.length === 24 && review.previews.every(preview => preview.issues.length === 0) ? 'passed' : 'pending',
+    hosted_review_report: reviewIsCurrent ? 'docs/hosted-review.json' : undefined,
+    physical_device_review: reviewIsCurrent ? review.physical_device_review : 'pending',
+    publication: reviewIsCurrent ? review.publication.status : 'not submitted'
   };
   fs.writeFileSync(path.join(root, 'docs/recipe-assets.json'), JSON.stringify(manifest, null, 2) + '\n');
   console.log(JSON.stringify({ screenshots: shots.length, aboutWords: words, icon: '512×512 PNG + SVG', publication: manifest.publication }));
