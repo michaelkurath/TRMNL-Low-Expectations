@@ -13,7 +13,21 @@ custom_fields:
     field_type: author_bio
     name: About Low Expectations
     category: humor,calendar
-    description: A daily tear-off calendar of dry humour. __ENTRY_COUNT__ bilingual entries, repeating after __ENTRY_COUNT__ local days.
+    description: >-
+      Low Expectations is a daily tear-off calendar for anyone who has had enough
+      encouragement. Each page pairs the date with a short piece of dry,
+      demotivating advice: a small reminder that tomorrow can bring the same
+      problems in a fresh arrangement.
+
+      Choose English or German. The calendar includes __ENTRY_COUNT__ paired entries and
+      shows the same entry throughout your local day, even if you refresh it
+      again. The sequence continues through New Year and leap days, then repeats
+      after __ENTRY_COUNT__ days.
+
+      The design adapts to Full, Half Horizontal, Half Vertical, and Quadrant
+      layouts on TRMNL OG and X, including portrait. Everything is included in the
+      plugin: no quote service, API key, or external account is needed.
+      Created by Michael Kurath.
     github_url: https://github.com/michaelkurath/TRMNL-Low-Expectations
   - keyname: language
     name: Language

@@ -1,0 +1,64 @@
+{
+  "version": "0.5.0",
+  "reference_date": "2026-10-17",
+  "source": "LiquidJS + local TRMNL Framework 3.4.3 browser renders",
+  "icon": {
+    "svg": "assets/icon.svg",
+    "png": "assets/icon-512.png",
+    "width": 512,
+    "height": 512
+  },
+  "overview": {
+    "file": "assets/recipe-preview.png",
+    "width": 1280,
+    "height": 840
+  },
+  "screenshots": [
+    {
+      "file": "assets/screenshots/og-full-en.png",
+      "label": "OG · Full · English",
+      "width": 780,
+      "height": 460
+    },
+    {
+      "file": "assets/screenshots/og-full-de.png",
+      "label": "OG · Full · Deutsch",
+      "width": 780,
+      "height": 460
+    },
+    {
+      "file": "assets/screenshots/og-half_horizontal-de.png",
+      "label": "OG · Half Horizontal · Deutsch",
+      "width": 780,
+      "height": 225
+    },
+    {
+      "file": "assets/screenshots/og-half_vertical-en.png",
+      "label": "OG · Half Vertical · English",
+      "width": 385,
+      "height": 460
+    },
+    {
+      "file": "assets/screenshots/og-quadrant-de.png",
+      "label": "OG · Quadrant · Deutsch",
+      "width": 375,
+      "height": 225
+    },
+    {
+      "file": "assets/screenshots/x-full-en.png",
+      "label": "X · Full · English",
+      "width": 1836,
+      "height": 1368
+    },
+    {
+      "file": "assets/screenshots/x-portrait-full-de.png",
+      "label": "X portrait · Full · Deutsch",
+      "width": 1368,
+      "height": 1836
+    }
+  ],
+  "about_word_count": 119,
+  "hosted_render_review": "pending",
+  "physical_device_review": "pending",
+  "publication": "not submitted"
+}

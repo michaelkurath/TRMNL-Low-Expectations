@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Low Expectations — tear-off calendar with a minus sign</title>
+  <path d="M12 15h40v37H12z" fill="#fff" stroke="#000" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M12 15h40v10H12z" fill="#000"/>
+  <path d="M21 11v9m22-9v9" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+  <path d="M21 17v3m22-3v3" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M25 38h14" fill="none" stroke="#000" stroke-width="3.5" stroke-linecap="square"/>
+  <path d="M14 56h36m-33 4h30" fill="none" stroke="#000" stroke-width="1.5"/>
+</svg>

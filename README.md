@@ -2,11 +2,13 @@
 
 A fresh disappointment. Every day.
 
-[GitHub repository](https://github.com/michaelkurath/TRMNL-Low-Expectations) · [All 365 entries](docs/quotes.md) · [Setup and validation](docs/validation.md)
+[GitHub repository](https://github.com/michaelkurath/TRMNL-Low-Expectations) · [All 365 entries](docs/quotes.md) · [Setup and validation](docs/validation.md) · [Recipe assets](docs/recipe.md)
 
 A TRMNL tear-off calendar with a black binding, fine page edges, a bold date, and one dry line of advice per local day.
 
-![Calendar before and after the visual redesign](docs/design/comparison.png)
+![Low Expectations recipe preview](assets/recipe-preview.png)
+
+[Before and after the visual redesign](docs/design/comparison.png)
 
 ## What is included
 
@@ -17,6 +19,7 @@ A TRMNL tear-off calendar with a black binding, fine page edges, a bold date, an
 - Native title bars and Framework 3.4.3.
 - Static data: no quote API, external feed, API key, Serverless function, or daily AI generation.
 - Source catalogue, generated settings, HTML previews, and automated checks.
+- SVG and PNG recipe icons, reference screenshots, and public listing text.
 
 This edition has a full year of content: 365 entries, repeating after 365 local days. The two languages show the same entry on the same local date. The rotation continues through New Year and treats 29 February as an ordinary day; entries are not tied to fixed month/day dates.
 
@@ -93,7 +96,7 @@ For layout rendering, install Playwright Chromium and download the official Fram
 
 The daily-selection tests and native-framework browser layout checks pass. The repository is linked to TRMNL plugin 510794, and its latest export retains the Static catalogue and language field. Hosted rendering and physical device verification remain release checks; the recipe has not been published.
 
-The full-year catalogue is complete. The next release step is hosted and physical device review, followed by recipe artwork and publication. Weekday-specific and seasonal lines remain outside this continuous rotation.
+The full-year catalogue and [publication assets](docs/recipe.md) are complete. Import the latest settings, upload the icon, and complete hosted and physical device review before submitting the recipe in TRMNL. Weekday-specific and seasonal lines remain outside this continuous rotation.
 
 ## References
 
