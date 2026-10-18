@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-18T08:53:42.000Z",
+  "generated_at": "2026-10-18T11:37:45.733Z",
   "framework": "3.4.3",
   "engine": "LiquidJS 10.21.1 + Chromium",
   "browser": "153.0.8010.0",
-  "checks": 2880,
+  "checks": 11680,
   "devices": [
     {
       "name": "og",
@@ -27,7 +27,7 @@
     }
   ],
   "language_count": 2,
-  "catalogue_entries": 90,
+  "catalogue_entries": 365,
   "renderedSizes": [
     {
       "device": "og",

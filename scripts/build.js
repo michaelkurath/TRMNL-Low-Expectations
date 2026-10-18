@@ -34,7 +34,7 @@ const outputs = {
   'docs/custom-fields.yml': settingsTemplate.split('custom_fields:\n')[1].replace(/^  /gm, ''),
   'src/settings.yml': settingsTemplate.replace('__CATALOGUE__', JSON.stringify(JSON.stringify(data))),
   'data/static_data.json': JSON.stringify(data, null, 2) + '\n',
-  'docs/quotes.md': '# Low Expectations: the first ' + count + ' days\n\nThese lines were written for this prototype. They have no invented author attribution.\nGerman uses Swiss spelling. The two languages share an entry ID and daily position.\n\n| ID | English | Deutsch |\n| --- | --- | --- |\n' + rows.join('\n') + '\n'
+  'docs/quotes.md': '# Low Expectations: ' + count + ' daily entries\n\nThese lines were written for this calendar. They have no invented author attribution.\nGerman uses Swiss spelling. The two languages share an entry ID and daily position.\n\n| ID | English | Deutsch |\n| --- | --- | --- |\n' + rows.join('\n') + '\n'
 };
 for (const [filename, expected] of Object.entries(outputs)) {
   const destination = path.join(root, filename);

@@ -7,8 +7,8 @@ const { validateSettings } = require('../scripts/settings');
 const { parse, stringify } = require('yaml');
 const catalogue = JSON.parse(fs.readFileSync(path.join(root, 'data/static_data.json'), 'utf8'));
 
-test('a nonempty bilingual catalogue with distinct IDs and text', () => {
-  assert(catalogue.entries.length > 0);
+test('a full-year catalogue of 365 bilingual entries with distinct IDs and text', () => {
+  assert.equal(catalogue.entries.length, 365);
   for (const entry of catalogue.entries) {
     assert.match(entry.id, /^le-\d{3}$/);
     for (const lang of ['en', 'de']) assert.equal(typeof entry[lang], 'string');

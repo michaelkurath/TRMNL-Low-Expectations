@@ -2,13 +2,13 @@
 
 A fresh disappointment. Every day.
 
-[GitHub repository](https://github.com/michaelkurath/TRMNL-Low-Expectations) · [All 90 entries](docs/quotes.md) · [Setup and validation](docs/validation.md)
+[GitHub repository](https://github.com/michaelkurath/TRMNL-Low-Expectations) · [All 365 entries](docs/quotes.md) · [Setup and validation](docs/validation.md)
 
-A working TRMNL calendar prototype with a paper binding, perforation, stacked page edges, a large date, and one dry line of advice per local day.
+A TRMNL tear-off calendar with a paper binding, perforation, stacked page edges, a large date, and one dry line of advice per local day.
 
 ## What is included
 
-- 90 paired English/German entries, written for this prototype.
+- 365 paired English/German entries, written for this calendar.
 - Full, half-horizontal, half-vertical, and quadrant Liquid templates.
 - Layout rules for OG, X, and X portrait.
 - Deterministic daily rotation using the TRMNL account's UTC offset.
@@ -16,9 +16,9 @@ A working TRMNL calendar prototype with a paper binding, perforation, stacked pa
 - Static data: no quote API, external feed, API key, Serverless function, or daily AI generation.
 - Source catalogue, generated settings, HTML previews, and automated checks.
 
-This is a 90-day prototype, not a full-year edition. After 90 local days, the sequence repeats. The two languages show the same entry on the same local date.
+This edition has a full year of content: 365 entries, repeating after 365 local days. The two languages show the same entry on the same local date. The rotation continues through New Year and treats 29 February as an ordinary day; entries are not tied to fixed month/day dates.
 
-Version 0.3.0 appends entries le-061 to le-090, with more shopping, travel, DIY, and social frustrations. The first 60 entries and the anchor date are unchanged; their initial dates retain the same lines. The longer cycle changes what appears after those first 60 days.
+Version 0.4.0 adds entries le-091 to le-365. The first 90 entries and the anchor date are unchanged; their initial dates retain the same lines. The longer cycle changes what appears after those first 90 days. The collection mixes everyday frustrations, bad advice, technology, travel, shopping, domestic chores, and work.
 
 ## Import from the linked GitHub repository
 
@@ -68,7 +68,7 @@ Edit data/quotes.json, then run:
 
 This updates src/settings.yml, data/static_data.json, docs/custom-fields.yml, and docs/quotes.md. Entry counts in generated metadata follow the source catalogue. The display payload excludes editorial topic labels; the build reports its byte size.
 
-Keep the catalogue length and order stable within a release. Changing either can change which line a date selects. There are no invented celebrity author credits.
+Keep the 365-entry length and order stable within this edition. Correct text in place while retaining its ID. Changing length or order belongs in a new edition because it can change which line a date selects. There are no invented celebrity author credits.
 
 See [the editorial guide](docs/editorial.md) for tone, translation, and repetition checks before adding more entries.
 
@@ -87,7 +87,7 @@ For layout rendering, install Playwright Chromium and download the official Fram
 
 The daily-selection tests and native-framework browser layout checks pass. The repository is linked to TRMNL plugin 510794, and its latest export retains the Static catalogue and language field. Hosted rendering and physical device verification remain release checks; the recipe has not been published.
 
-The next content milestone is a carefully edited full-year collection. Weekday-specific and seasonal lines are intentionally deferred until the daily calendar itself has been tested on a device.
+The full-year catalogue is complete. The next release step is hosted and physical device review, followed by recipe artwork and publication. Weekday-specific and seasonal lines remain outside this continuous rotation.
 
 ## References
 

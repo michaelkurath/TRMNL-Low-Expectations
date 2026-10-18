@@ -1,5 +1,5 @@
 {
-  "catalogue_version": "0.3.0",
+  "catalogue_version": "0.4.0",
   "epoch_local_day": 20743,
   "entries": [
     {
@@ -451,6 +451,1381 @@
       "id": "le-090",
       "en": "Make time for what matters.\nThe washing machine has finished again.",
       "de": "Nimm dir Zeit für das Wesentliche.\nDie Waschmaschine ist schon wieder fertig."
+    },
+    {
+      "id": "le-091",
+      "en": "The new chapter looks promising.\nThe old characters have followed you.",
+      "de": "Das neue Kapitel sieht gut aus.\nDie alten Figuren sind mitgekommen."
+    },
+    {
+      "id": "le-092",
+      "en": "There’s a lid for every container.\nThey live in different cupboards.",
+      "de": "Für jede Dose gibt es einen Deckel.\nSie wohnen in verschiedenen Schränken."
+    },
+    {
+      "id": "le-093",
+      "en": "You’ve cleared the browser tabs.\nThe thoughts are still open.",
+      "de": "Die Browser-Tabs sind zu.\nDie Gedanken bleiben offen."
+    },
+    {
+      "id": "le-094",
+      "en": "Take the scenic route.\nAt least you’ll have a view while being late.",
+      "de": "Nimm den schönen Umweg.\nDann hast du beim Zuspätkommen wenigstens Aussicht."
+    },
+    {
+      "id": "le-095",
+      "en": "The avocado is ready.\nYou had other plans for these six minutes.",
+      "de": "Die Avocado ist reif.\nDu hattest für diese sechs Minuten andere Pläne."
+    },
+    {
+      "id": "le-096",
+      "en": "Your job title has changed.\nThe questions still come to you.",
+      "de": "Dein Jobtitel hat sich geändert.\nDie Fragen landen weiter bei dir."
+    },
+    {
+      "id": "le-097",
+      "en": "You found a place for everything.\nNow you need a map.",
+      "de": "Du hast für alles einen Platz gefunden.\nJetzt brauchst du eine Karte."
+    },
+    {
+      "id": "le-098",
+      "en": "The group chat has reached a decision.\nSomeone has just joined.",
+      "de": "Der Gruppenchat hat sich entschieden.\nGerade ist noch jemand dazugekommen."
+    },
+    {
+      "id": "le-099",
+      "en": "The progress bar is nearly finished.\nIt has been practising that look.",
+      "de": "Der Fortschrittsbalken ist fast fertig.\nDiesen Eindruck hat er lange geübt."
+    },
+    {
+      "id": "le-100",
+      "en": "Lower the bar gently.\nThere are people leaning on it.",
+      "de": "Leg die Messlatte langsam tiefer.\nEs lehnen noch Leute daran."
+    },
+    {
+      "id": "le-101",
+      "en": "The sale saved you twenty francs.\nBuying nothing lacked the excitement.",
+      "de": "Der Ausverkauf hat dir zwanzig Franken gespart.\nNichts kaufen war zu wenig aufregend."
+    },
+    {
+      "id": "le-102",
+      "en": "The vacuum has found a cable.\nThe cleaning has become a rescue mission.",
+      "de": "Der Staubsauger hat ein Kabel gefunden.\nAus Putzen wurde eine Rettungsaktion."
+    },
+    {
+      "id": "le-103",
+      "en": "You’re full of untapped potential.\nApparently, the tap is sold separately.",
+      "de": "Du hast viel ungenutztes Potenzial.\nDer passende Schlüssel war wohl nicht dabei."
+    },
+    {
+      "id": "le-104",
+      "en": "Your seat has a lovely view.\nOf the person who reclined first.",
+      "de": "Dein Sitz bietet eine schöne Aussicht.\nAuf die zuerst zurückgeklappte Rückenlehne."
+    },
+    {
+      "id": "le-105",
+      "en": "The decision is final.\nYou’ve only reopened it mentally six times.",
+      "de": "Die Entscheidung steht fest.\nDu hast sie im Kopf erst sechsmal neu verhandelt."
+    },
+    {
+      "id": "le-106",
+      "en": "The cake sank in the middle.\nEven dessert needs somewhere to give up.",
+      "de": "Der Kuchen ist eingesunken.\nAuch ein Dessert braucht einen Ort zum Aufgeben."
+    },
+    {
+      "id": "le-107",
+      "en": "The smart speaker heard everything.\nExcept the request.",
+      "de": "Der smarte Lautsprecher hat alles gehört.\nAusser deinem Wunsch."
+    },
+    {
+      "id": "le-108",
+      "en": "Make a bold entrance.\nThen work out whether this is the right room.",
+      "de": "Leg einen starken Auftritt hin.\nPrüf danach, ob du im richtigen Raum bist."
+    },
+    {
+      "id": "le-109",
+      "en": "Your guitar is beautifully tuned.\nThe audience is still a coat rack.",
+      "de": "Deine Gitarre ist perfekt gestimmt.\nDas Publikum bleibt der Kleiderständer."
+    },
+    {
+      "id": "le-110",
+      "en": "The form has been simplified.\nThe explanation is now a separate document.",
+      "de": "Das Formular wurde vereinfacht.\nDie Erklärung ist jetzt ein separates Dokument."
+    },
+    {
+      "id": "le-111",
+      "en": "Your sofa has excellent support.\nMostly for abandoning the afternoon.",
+      "de": "Dein Sofa bietet guten Rückhalt.\nVor allem beim Aufgeben des Nachmittags."
+    },
+    {
+      "id": "le-112",
+      "en": "You took an umbrella.\nThe wind brought a design improvement.",
+      "de": "Du hast einen Schirm mitgenommen.\nDer Wind hat das Design überarbeitet."
+    },
+    {
+      "id": "le-113",
+      "en": "The deadline is ambitious.\nThe person who set it is on holiday.",
+      "de": "Der Termin ist ehrgeizig.\nWer ihn gesetzt hat, ist in den Ferien."
+    },
+    {
+      "id": "le-114",
+      "en": "The drawer still closes.\nThat counts as a filing system.",
+      "de": "Die Schublade geht noch zu.\nDas zählt als Ablagesystem."
+    },
+    {
+      "id": "le-115",
+      "en": "You’re making memories.\nKeep a few apologies ready.",
+      "de": "Du sammelst Erinnerungen.\nLeg schon ein paar Entschuldigungen bereit."
+    },
+    {
+      "id": "le-116",
+      "en": "Your parking ticket is valid.\nYour parking skills remain under review.",
+      "de": "Dein Parkticket ist gültig.\nDeine Parkkünste werden noch geprüft."
+    },
+    {
+      "id": "le-117",
+      "en": "The coffee has gone cold.\nIt waited for you to become organised.",
+      "de": "Der Kaffee ist kalt geworden.\nEr hat gewartet, bis du dich organisiert hast."
+    },
+    {
+      "id": "le-118",
+      "en": "Keep your feet on the ground.\nThe interesting jobs are upstairs.",
+      "de": "Bleib mit beiden Füssen am Boden.\nDie interessanten Stellen sind oben."
+    },
+    {
+      "id": "le-119",
+      "en": "The warranty ended yesterday.\nThe appliance kept excellent records.",
+      "de": "Die Garantie ist gestern abgelaufen.\nDas Gerät hat genau Buch geführt."
+    },
+    {
+      "id": "le-120",
+      "en": "Your clever workaround is now the official procedure.",
+      "de": "Deine schlaue Notlösung ist jetzt das offizielle Verfahren."
+    },
+    {
+      "id": "le-121",
+      "en": "The holiday photos are lovely.\nThey’ve edited out the packing.",
+      "de": "Die Ferienfotos sind schön.\nDas Kofferpacken wurde herausgeschnitten."
+    },
+    {
+      "id": "le-122",
+      "en": "You have excellent taste.\nYour bank balance has filed an objection.",
+      "de": "Du hast einen guten Geschmack.\nDein Kontostand hat Einspruch erhoben."
+    },
+    {
+      "id": "le-123",
+      "en": "The bottle says “easy open”.\nIt would like to see you try.",
+      "de": "Auf der Flasche steht «leicht zu öffnen».\nSie möchte dich gern dabei sehen."
+    },
+    {
+      "id": "le-124",
+      "en": "Some friendships survive anything.\nChoosing a restaurant remains untested.",
+      "de": "Manche Freundschaften halten alles aus.\nDie Restaurantwahl wurde noch nicht getestet."
+    },
+    {
+      "id": "le-125",
+      "en": "The cupboard is minimalist.\nEverything fell out.",
+      "de": "Der Schrank ist minimalistisch.\nAlles ist herausgefallen."
+    },
+    {
+      "id": "le-126",
+      "en": "The undo button is a beautiful invention.\nConversation is awaiting the update.",
+      "de": "Die Rückgängig-Taste ist eine schöne Erfindung.\nGespräche warten noch auf das Update."
+    },
+    {
+      "id": "le-127",
+      "en": "Take a step back.\nThe mess is easier to admire from here.",
+      "de": "Mach einen Schritt zurück.\nVon hier lässt sich das Chaos besser bewundern."
+    },
+    {
+      "id": "le-128",
+      "en": "The spare room is available.\nYou’ll have to negotiate with the boxes.",
+      "de": "Das Gästezimmer ist frei.\nDu musst nur mit den Kartons verhandeln."
+    },
+    {
+      "id": "le-129",
+      "en": "You meet all the requirements.\nThey’re looking for something else.",
+      "de": "Du erfüllst alle Anforderungen.\nGesucht wird trotzdem etwas anderes."
+    },
+    {
+      "id": "le-130",
+      "en": "The fridge light came on.\nNothing else has changed since your last visit.",
+      "de": "Das Kühlschranklicht geht an.\nSonst hat sich seit deinem letzten Besuch nichts geändert."
+    },
+    {
+      "id": "le-131",
+      "en": "Be your own toughest critic.\nIt saves everyone else a meeting.",
+      "de": "Sei dein härtester Kritiker.\nDas erspart allen anderen eine Besprechung."
+    },
+    {
+      "id": "le-132",
+      "en": "The instructions include pictures.\nThe pictures know less than you.",
+      "de": "Die Anleitung hat Bilder.\nDie wissen noch weniger als du."
+    },
+    {
+      "id": "le-133",
+      "en": "Your suitcase has wheels.\nThe staircase has principles.",
+      "de": "Dein Koffer hat Rollen.\nDie Treppe hat Prinzipien."
+    },
+    {
+      "id": "le-134",
+      "en": "You’re in the right place.\nThe right time left a while ago.",
+      "de": "Du bist am richtigen Ort.\nDer richtige Zeitpunkt ist schon länger weg."
+    },
+    {
+      "id": "le-135",
+      "en": "The online course is self-paced.\nYou’ve chosen stationary.",
+      "de": "Beim Onlinekurs bestimmst du das Tempo.\nDu hast Stillstand gewählt."
+    },
+    {
+      "id": "le-136",
+      "en": "The dishes are soaking.\nIt’s important not to rush this stage.",
+      "de": "Das Geschirr weicht ein.\nDiesen Schritt sollte man nicht überstürzen."
+    },
+    {
+      "id": "le-137",
+      "en": "A fresh coat of paint fixes everything.\nUntil you notice the ceiling.",
+      "de": "Ein neuer Anstrich löst alles.\nBis du die Decke bemerkst."
+    },
+    {
+      "id": "le-138",
+      "en": "You made a sensible choice.\nThe fun option has better marketing.",
+      "de": "Du hast vernünftig entschieden.\nDie lustige Variante hat das bessere Marketing."
+    },
+    {
+      "id": "le-139",
+      "en": "The book promises a new you.\nThe old one keeps losing the page.",
+      "de": "Das Buch verspricht ein neues Ich.\nDas alte verliert ständig die richtige Seite."
+    },
+    {
+      "id": "le-140",
+      "en": "Enjoy the journey.\nYour destination has not replied.",
+      "de": "Geniess den Weg.\nDein Ziel hat noch nicht geantwortet."
+    },
+    {
+      "id": "le-141",
+      "en": "You cleaned your glasses.\nNow the windows need doing.",
+      "de": "Du hast deine Brille geputzt.\nJetzt sind die Fenster dran."
+    },
+    {
+      "id": "le-142",
+      "en": "Disconnect for a while.\nThe router has kindly started without you.",
+      "de": "Schalte mal ab.\nDer Router hat freundlicherweise schon angefangen."
+    },
+    {
+      "id": "le-143",
+      "en": "The bread bag is resealable.\nThe crumbs have other arrangements.",
+      "de": "Der Brotbeutel ist wiederverschliessbar.\nDie Krümel haben andere Pläne."
+    },
+    {
+      "id": "le-144",
+      "en": "You delegated the task.\nCongratulations on your new follow-up task.",
+      "de": "Du hast die Aufgabe delegiert.\nGlückwunsch zu deiner neuen Kontrollaufgabe."
+    },
+    {
+      "id": "le-145",
+      "en": "The appointment is at ten.\nYour role is to bring the waiting room to life.",
+      "de": "Dein Termin ist um zehn.\nDeine Aufgabe ist es, das Wartezimmer zu beleben."
+    },
+    {
+      "id": "le-146",
+      "en": "The captcha wants another bicycle.\nYou wanted a train ticket.",
+      "de": "Das Captcha will noch ein Velo.\nDu wolltest ein Zugbillett."
+    },
+    {
+      "id": "le-147",
+      "en": "“No worries” is doing a remarkable amount of unpaid work.",
+      "de": "«Kein Problem» leistet erstaunlich viel unbezahlte Arbeit."
+    },
+    {
+      "id": "le-148",
+      "en": "The mountain view is breathtaking.\nYou’ve brought your own cloud.",
+      "de": "Die Bergsicht ist atemberaubend.\nDu hast deine eigene Wolke mitgebracht."
+    },
+    {
+      "id": "le-149",
+      "en": "The old cables might be useful one day.\nThey’ve agreed to wait together.",
+      "de": "Die alten Kabel könnten mal nützlich sein.\nSie haben sich zum gemeinsamen Warten verabredet."
+    },
+    {
+      "id": "le-150",
+      "en": "Your step counter is delighted.\nYou’ve been looking for your keys.",
+      "de": "Dein Schrittzähler ist begeistert.\nDu hast deine Schlüssel gesucht."
+    },
+    {
+      "id": "le-151",
+      "en": "When in doubt, make a folder.\nDoubt looks more professional with a name.",
+      "de": "Mach im Zweifel einen Ordner.\nZweifel wirkt mit einem Namen professioneller."
+    },
+    {
+      "id": "le-152",
+      "en": "The shoes fit perfectly.\nThey’re the pair you came in with.",
+      "de": "Die Schuhe passen perfekt.\nEs sind die, mit denen du gekommen bist."
+    },
+    {
+      "id": "le-153",
+      "en": "The doorbell rang just as you sat down.\nIt respects a dramatic entrance.",
+      "de": "Es klingelt, sobald du sitzt.\nDie Türklingel versteht etwas von Auftritten."
+    },
+    {
+      "id": "le-154",
+      "en": "The project is under control.\nSeveral people are holding different ends.",
+      "de": "Das Projekt ist unter Kontrolle.\nMehrere Leute halten verschiedene Enden fest."
+    },
+    {
+      "id": "le-155",
+      "en": "You understood the explanation.\nThen came the example.",
+      "de": "Du hast die Erklärung verstanden.\nDann kam das Beispiel."
+    },
+    {
+      "id": "le-156",
+      "en": "The homemade sauce is unique.\nYou made sure not to write anything down.",
+      "de": "Die selbst gemachte Sauce ist einmalig.\nDu hast vorsichtshalber nichts aufgeschrieben."
+    },
+    {
+      "id": "le-157",
+      "en": "The file is safely backed up.\nUnder a name no one will guess.",
+      "de": "Die Datei ist gut gesichert.\nUnter einem Namen, auf den niemand kommt."
+    },
+    {
+      "id": "le-158",
+      "en": "Keep an open mind.\nSomeone will fill it with their podcast.",
+      "de": "Bleib offen für Neues.\nJemand wird dir seinen Podcast empfehlen."
+    },
+    {
+      "id": "le-159",
+      "en": "The hotel has late checkout.\nYour flight has early ideas.",
+      "de": "Das Hotel bietet späten Checkout.\nDein Flug hat frühere Vorstellungen."
+    },
+    {
+      "id": "le-160",
+      "en": "You found the perfect reply.\nThe conversation was last week.",
+      "de": "Du hast die perfekte Antwort gefunden.\nDas Gespräch war letzte Woche."
+    },
+    {
+      "id": "le-161",
+      "en": "The glue holds everything.\nStart with your fingers.",
+      "de": "Der Leim hält alles zusammen.\nAngefangen bei deinen Fingern."
+    },
+    {
+      "id": "le-162",
+      "en": "You chose the simpler option.\nIts complications arrive separately.",
+      "de": "Du hast die einfachere Variante gewählt.\nIhre Komplikationen kommen separat."
+    },
+    {
+      "id": "le-163",
+      "en": "The repair is cheaper than replacing it.\nThat was before they opened it.",
+      "de": "Reparieren ist billiger als Ersetzen.\nDas war, bevor man es geöffnet hat."
+    },
+    {
+      "id": "le-164",
+      "en": "Your craft supplies are beautifully arranged.\nThat was today’s craft.",
+      "de": "Dein Bastelmaterial ist schön geordnet.\nDas war das heutige Bastelprojekt."
+    },
+    {
+      "id": "le-165",
+      "en": "The possibilities are endless.\nThe charging cable is one metre.",
+      "de": "Die Möglichkeiten sind endlos.\nDas Ladekabel ist einen Meter lang."
+    },
+    {
+      "id": "le-166",
+      "en": "The film starts in five minutes.\nChoosing it took the evening.",
+      "de": "Der Film beginnt in fünf Minuten.\nDie Auswahl hat den Abend gebraucht."
+    },
+    {
+      "id": "le-167",
+      "en": "The return label is free.\nThe trip to the post office is yours.",
+      "de": "Die Rücksendeetikette ist gratis.\nDer Weg zur Post gehört dir."
+    },
+    {
+      "id": "le-168",
+      "en": "Don’t burn bridges.\nYou need somewhere to stand while changing your mind.",
+      "de": "Brenn keine Brücken ab.\nBeim Umentscheiden brauchst du einen Platz zum Stehen."
+    },
+    {
+      "id": "le-169",
+      "en": "The bath is finally warm.\nYou’ve used the last clean towel.",
+      "de": "Das Bad ist endlich warm.\nDu hast das letzte saubere Badetuch verbraucht."
+    },
+    {
+      "id": "le-170",
+      "en": "The new software has fewer buttons.\nYour favourite was among them.",
+      "de": "Die neue Software hat weniger Knöpfe.\nDein liebster war darunter."
+    },
+    {
+      "id": "le-171",
+      "en": "Your garden is thriving.\nThe weeds accepted the invitation first.",
+      "de": "Dein Garten gedeiht.\nDas Unkraut hat die Einladung zuerst angenommen."
+    },
+    {
+      "id": "le-172",
+      "en": "You’ve got a lot on your plate.\nSomeone has asked if that’s the small plate.",
+      "de": "Du hast viel auf dem Teller.\nJemand fragt, ob das der kleine Teller sei."
+    },
+    {
+      "id": "le-173",
+      "en": "A second opinion is available.\nIt disagrees more confidently.",
+      "de": "Eine zweite Meinung ist verfügbar.\nSie widerspricht selbstbewusster."
+    },
+    {
+      "id": "le-174",
+      "en": "The quiet carriage is full of people explaining that they’re in the quiet carriage.",
+      "de": "Das Ruheabteil ist voll mit Leuten, die erklären, dass sie gerade im Ruheabteil sind."
+    },
+    {
+      "id": "le-175",
+      "en": "Start small.\nThe invoice won’t.",
+      "de": "Fang klein an.\nDie Rechnung wird das nicht tun."
+    },
+    {
+      "id": "le-176",
+      "en": "Your phone offered to free up space.\nIt has started with the app you needed.",
+      "de": "Dein Handy bietet an, Platz zu schaffen.\nEs beginnt mit der App, die du brauchst."
+    },
+    {
+      "id": "le-177",
+      "en": "The biscuit tin is empty.\nYou’re impressed by everyone’s commitment.",
+      "de": "Die Guetzlidose ist leer.\nDu bist vom Einsatz aller Beteiligten beeindruckt."
+    },
+    {
+      "id": "le-178",
+      "en": "The label says hand wash.\nYour wardrobe has hired you.",
+      "de": "Auf dem Etikett steht Handwäsche.\nDeine Garderobe hat dich angestellt."
+    },
+    {
+      "id": "le-179",
+      "en": "You brought a reusable bag.\nIt’s enjoying a quiet afternoon in the car.",
+      "de": "Du hast eine Einkaufstasche dabei.\nSie geniesst einen ruhigen Nachmittag im Auto."
+    },
+    {
+      "id": "le-180",
+      "en": "The shortcut saves six minutes.\nFinding it has taken twenty.",
+      "de": "Die Abkürzung spart sechs Minuten.\nDie Suche danach hat zwanzig gebraucht."
+    },
+    {
+      "id": "le-181",
+      "en": "Learning from others’ mistakes is efficient.\nYou prefer the full experience.",
+      "de": "Aus fremden Fehlern lernen ist effizient.\nDu bevorzugst das volle Erlebnis."
+    },
+    {
+      "id": "le-182",
+      "en": "The new candle promises tranquillity.\nIt smells of the receipt.",
+      "de": "Die neue Kerze verspricht Ruhe.\nSie duftet nach Kassenzettel."
+    },
+    {
+      "id": "le-183",
+      "en": "You’re fully prepared.\nFor the version of events you rehearsed.",
+      "de": "Du bist bestens vorbereitet.\nAuf die Version, die du geübt hast."
+    },
+    {
+      "id": "le-184",
+      "en": "The chair is ergonomic.\nThe conversation is still uncomfortable.",
+      "de": "Der Stuhl ist ergonomisch.\nDas Gespräch bleibt unbequem."
+    },
+    {
+      "id": "le-185",
+      "en": "You only need one screwdriver.\nIt’s the one someone borrowed.",
+      "de": "Du brauchst nur einen Schraubenzieher.\nEs ist der, den jemand ausgeliehen hat."
+    },
+    {
+      "id": "le-186",
+      "en": "Make yourself at home.\nThe things that need fixing are on the list.",
+      "de": "Fühl dich wie zu Hause.\nWas repariert werden muss, steht auf der Liste."
+    },
+    {
+      "id": "le-187",
+      "en": "The lift has arrived.\nIt has brought every other floor with it.",
+      "de": "Der Lift ist da.\nEr hat alle anderen Stockwerke mitgebracht."
+    },
+    {
+      "id": "le-188",
+      "en": "The recipe serves four.\nApparently, four people who’ve already eaten.",
+      "de": "Das Rezept reicht für vier.\nOffenbar für vier Leute, die schon gegessen haben."
+    },
+    {
+      "id": "le-189",
+      "en": "The software remembers your preferences.\nIt prefers to ignore them.",
+      "de": "Die Software kennt deine Vorlieben.\nSie ignoriert sie am liebsten."
+    },
+    {
+      "id": "le-190",
+      "en": "There’s no rush.\nApart from the people who told you that.",
+      "de": "Es eilt nicht.\nAusser für die Leute, die dir das gesagt haben."
+    },
+    {
+      "id": "le-191",
+      "en": "The manual is in six languages.\nNone of them explains that noise.",
+      "de": "Die Anleitung ist in sechs Sprachen.\nKeine erklärt dieses Geräusch."
+    },
+    {
+      "id": "le-192",
+      "en": "The stationery shop sells fresh starts in packs of five.",
+      "de": "Im Schreibwarenladen gibt es Neuanfänge im Fünferpack."
+    },
+    {
+      "id": "le-193",
+      "en": "Your neighbour is learning an instrument.\nYou’re learning patience without signing up.",
+      "de": "Dein Nachbar lernt ein Instrument.\nDu lernst Geduld, ohne dich angemeldet zu haben."
+    },
+    {
+      "id": "le-194",
+      "en": "The new app saves ten seconds.\nRegistration takes the rest of the break.",
+      "de": "Die neue App spart zehn Sekunden.\nDie Anmeldung braucht den Rest der Pause."
+    },
+    {
+      "id": "le-195",
+      "en": "Let your work speak for itself.\nIt has asked for a representative.",
+      "de": "Lass deine Arbeit für sich sprechen.\nSie hat eine Vertretung angefordert."
+    },
+    {
+      "id": "le-196",
+      "en": "The sandwich was made with love.\nThe cling film was sealed with revenge.",
+      "de": "Das Sandwich wurde mit Liebe gemacht.\nDie Frischhaltefolie wurde mit Rache verschlossen."
+    },
+    {
+      "id": "le-197",
+      "en": "You have a good eye for detail.\nIt won’t let you enjoy the finished room.",
+      "de": "Du hast ein gutes Auge für Details.\nEs lässt dich das fertige Zimmer nicht geniessen."
+    },
+    {
+      "id": "le-198",
+      "en": "The parking space is perfect.\nThe sign has a short novel underneath.",
+      "de": "Der Parkplatz ist perfekt.\nUnter dem Schild steht ein kleiner Roman."
+    },
+    {
+      "id": "le-199",
+      "en": "Some days are a blank canvas.\nOthers arrive pre-stained.",
+      "de": "Manche Tage sind eine leere Leinwand.\nAndere kommen schon mit Flecken."
+    },
+    {
+      "id": "le-200",
+      "en": "Your polite reminder is now old enough to need a reminder.",
+      "de": "Deine freundliche Erinnerung ist jetzt alt genug für eine eigene Erinnerung."
+    },
+    {
+      "id": "le-201",
+      "en": "The flat-pack looks just like the picture.\nKeep the box in front of it.",
+      "de": "Das Möbel sieht aus wie auf dem Bild.\nLass einfach den Karton davor stehen."
+    },
+    {
+      "id": "le-202",
+      "en": "At last, a yes-or-no question.\nIt comes with a comments field.",
+      "de": "Endlich eine Ja-Nein-Frage.\nEs gibt ein Feld für Kommentare dazu."
+    },
+    {
+      "id": "le-203",
+      "en": "The dog wants a walk.\nThe weather wants witnesses.",
+      "de": "Der Hund will spazieren.\nDas Wetter will Zeugen."
+    },
+    {
+      "id": "le-204",
+      "en": "The museum has a shelf like your unfinished one.\nIt’s called an installation.",
+      "de": "Im Museum steht ein Regal wie dein unfertiges.\nDort nennt man es Installation."
+    },
+    {
+      "id": "le-205",
+      "en": "Don’t overthink it.\nYou can do that afterwards for years.",
+      "de": "Denk nicht zu lange nach.\nDafür hast du hinterher noch jahrelang Zeit."
+    },
+    {
+      "id": "le-206",
+      "en": "The calendar says you’re free.\nIt knows very little about laundry.",
+      "de": "Laut Kalender hast du frei.\nEr weiss sehr wenig über Wäsche."
+    },
+    {
+      "id": "le-207",
+      "en": "You’ve learnt from the past.\nIt’s applying for a return visit.",
+      "de": "Du hast aus der Vergangenheit gelernt.\nSie bewirbt sich um einen weiteren Besuch."
+    },
+    {
+      "id": "le-208",
+      "en": "The charger works at one particular angle.\nSo does your optimism.",
+      "de": "Das Ladegerät funktioniert in einem bestimmten Winkel.\nDein Optimismus auch."
+    },
+    {
+      "id": "le-209",
+      "en": "The guests said not to make a fuss.\nTheir dietary requirements have arrived.",
+      "de": "Die Gäste sagten, du sollst dir keine Mühe machen.\nIhre Essenswünsche sind angekommen."
+    },
+    {
+      "id": "le-210",
+      "en": "Your parcel has been delivered.\nThe photograph suggests a parallel universe.",
+      "de": "Dein Paket wurde zugestellt.\nDas Foto deutet auf ein Paralleluniversum hin."
+    },
+    {
+      "id": "le-211",
+      "en": "The walk is suitable for beginners.\nThe sign was written by a mountain.",
+      "de": "Die Wanderung ist für Anfänger geeignet.\nDas Schild hat ein Berg geschrieben."
+    },
+    {
+      "id": "le-212",
+      "en": "Be consistent.\nYour errors already have a recognisable style.",
+      "de": "Bleib konsequent.\nDeine Fehler haben schon einen erkennbaren Stil."
+    },
+    {
+      "id": "le-213",
+      "en": "The password is strong.\nYour memory has lodged a complaint.",
+      "de": "Das Passwort ist stark.\nDein Gedächtnis hat Beschwerde eingereicht."
+    },
+    {
+      "id": "le-214",
+      "en": "You’re taking the long view.\nUp close, it needs a lot of work.",
+      "de": "Du siehst das grosse Ganze.\nAus der Nähe braucht es noch viel Arbeit."
+    },
+    {
+      "id": "le-215",
+      "en": "The fresh herbs are decorative now.\nCooking was a brief part of their career.",
+      "de": "Die frischen Kräuter sind jetzt Deko.\nKochen war nur ein kurzer Teil ihrer Karriere."
+    },
+    {
+      "id": "le-216",
+      "en": "You’ve found the perfect gift.\nYou’re looking forward to keeping it.",
+      "de": "Du hast das perfekte Geschenk gefunden.\nDu freust dich darauf, es zu behalten."
+    },
+    {
+      "id": "le-217",
+      "en": "The sleep app says you’re well rested.\nIt’s lovely that someone believes it.",
+      "de": "Die Schlaf-App sagt, du seist erholt.\nSchön, dass wenigstens jemand daran glaubt."
+    },
+    {
+      "id": "le-218",
+      "en": "Your jacket is weatherproof.\nThe gap at your neck is independent.",
+      "de": "Deine Jacke ist wetterfest.\nDie Lücke am Hals ist selbstständig."
+    },
+    {
+      "id": "le-219",
+      "en": "The playlist knows your mood.\nIt has decided to sell you something.",
+      "de": "Die Playlist kennt deine Stimmung.\nSie möchte dir etwas verkaufen."
+    },
+    {
+      "id": "le-220",
+      "en": "Trust your gut.\nIt recommended the second dessert.",
+      "de": "Vertrau deinem Bauchgefühl.\nEs hat das zweite Dessert empfohlen."
+    },
+    {
+      "id": "le-221",
+      "en": "Your privacy settings are personal.\nEvery website would like to discuss them.",
+      "de": "Deine Datenschutzeinstellungen sind persönlich.\nJede Website möchte darüber reden."
+    },
+    {
+      "id": "le-222",
+      "en": "You caught up with the news.\nIt has already changed the subject.",
+      "de": "Du bist bei den Nachrichten auf dem Laufenden.\nSie haben das Thema schon gewechselt."
+    },
+    {
+      "id": "le-223",
+      "en": "The kitchen is spotless.\nDinner would be an act of vandalism.",
+      "de": "Die Küche ist makellos.\nKochen wäre jetzt Vandalismus."
+    },
+    {
+      "id": "le-224",
+      "en": "You’ve found common ground.\nEveryone is equally annoyed.",
+      "de": "Ihr habt eine gemeinsame Basis gefunden.\nAlle sind gleich genervt."
+    },
+    {
+      "id": "le-225",
+      "en": "Good judgement comes with experience.\nThe invoices arrive earlier.",
+      "de": "Gutes Urteilsvermögen kommt mit Erfahrung.\nDie Rechnungen kommen früher."
+    },
+    {
+      "id": "le-226",
+      "en": "The hotel says “sea view”.\nIt means the gap between two buildings.",
+      "de": "Das Hotel verspricht Meerblick.\nGemeint ist die Lücke zwischen zwei Gebäuden."
+    },
+    {
+      "id": "le-227",
+      "en": "The bookmark travels through the house faster than it travels through the book.",
+      "de": "Das Lesezeichen kommt im Haus schneller voran als im Buch."
+    },
+    {
+      "id": "le-228",
+      "en": "The doormat says welcome.\nThe door chain would like some context.",
+      "de": "Die Fussmatte sagt willkommen.\nDie Türkette hätte gern etwas mehr Kontext."
+    },
+    {
+      "id": "le-229",
+      "en": "Leadership means asking good questions.\n“Who moved my mug?” is today’s contribution.",
+      "de": "Führen heisst gute Fragen stellen.\n«Wer hat meine Tasse verstellt?» ist dein heutiger Beitrag."
+    },
+    {
+      "id": "le-230",
+      "en": "Reduce distractions.\nStart by closing the app that measures them.",
+      "de": "Reduziere Ablenkungen.\nSchliess zuerst die App, die sie misst."
+    },
+    {
+      "id": "le-231",
+      "en": "The motion sensor has spotted you.\nThe lights have chosen suspense.",
+      "de": "Der Bewegungsmelder hat dich entdeckt.\nDas Licht setzt auf Spannung."
+    },
+    {
+      "id": "le-232",
+      "en": "Your phone is on silent.\nThe microwave has offered to cover.",
+      "de": "Dein Handy ist lautlos.\nDie Mikrowelle übernimmt die Vertretung."
+    },
+    {
+      "id": "le-233",
+      "en": "The gift receipt is inside.\nSo is a quiet vote of no confidence.",
+      "de": "Der Geschenkbeleg liegt bei.\nEin leises Misstrauensvotum ebenfalls."
+    },
+    {
+      "id": "le-234",
+      "en": "The train has panoramic windows.\nThe tunnel is equally impressive.",
+      "de": "Der Zug hat Panoramafenster.\nDer Tunnel ist genauso beeindruckend."
+    },
+    {
+      "id": "le-235",
+      "en": "A clear conscience is useful.\nKeep it away from the unread messages.",
+      "de": "Ein gutes Gewissen ist nützlich.\nHalte es von den ungelesenen Nachrichten fern."
+    },
+    {
+      "id": "le-236",
+      "en": "The floor is clean.\nYou’ve mopped yourself into the kitchen.",
+      "de": "Der Boden ist sauber.\nDu hast dir jeden Fluchtweg weggewischt."
+    },
+    {
+      "id": "le-237",
+      "en": "The outfit is effortless.\nThe pile on the bed tells the full story.",
+      "de": "Das Outfit wirkt mühelos.\nDer Kleiderhaufen auf dem Bett erzählt die ganze Geschichte."
+    },
+    {
+      "id": "le-238",
+      "en": "The search history knows what you want.\nYou’re glad someone does.",
+      "de": "Der Suchverlauf weiss, was du willst.\nDu bist froh, dass es jemand weiss."
+    },
+    {
+      "id": "le-239",
+      "en": "The meeting has an agenda.\nThe agenda has no authority.",
+      "de": "Die Besprechung hat eine Traktandenliste.\nDie Liste hat nichts zu sagen."
+    },
+    {
+      "id": "le-240",
+      "en": "Think before you speak.\nThen miss your turn completely.",
+      "de": "Denk nach, bevor du sprichst.\nVerpass dann deinen Einsatz vollständig."
+    },
+    {
+      "id": "le-241",
+      "en": "The cat has chosen your lap.\nYour afternoon has been rescheduled.",
+      "de": "Die Katze hat deinen Schoss gewählt.\nDein Nachmittag wurde umgeplant."
+    },
+    {
+      "id": "le-242",
+      "en": "The plan is watertight.\nThere’s no way out from inside either.",
+      "de": "Der Plan ist wasserdicht.\nVon innen kommt man auch nicht heraus."
+    },
+    {
+      "id": "le-243",
+      "en": "The printer is ready.\nFor a conversation about cyan.",
+      "de": "Der Drucker ist bereit.\nFür ein Gespräch über Cyan."
+    },
+    {
+      "id": "le-244",
+      "en": "Your new habit is taking shape.\nIt currently resembles an exception.",
+      "de": "Deine neue Gewohnheit nimmt Gestalt an.\nSie sieht gerade wie eine Ausnahme aus."
+    },
+    {
+      "id": "le-245",
+      "en": "Don’t count your chickens.\nThe spreadsheet will ask for a forecast.",
+      "de": "Freu dich nicht zu früh.\nDie Tabelle verlangt trotzdem eine Prognose."
+    },
+    {
+      "id": "le-246",
+      "en": "Your name is on the waiting list.\nIt’s nice to be included in something.",
+      "de": "Dein Name steht auf der Warteliste.\nSchön, irgendwo dazuzugehören."
+    },
+    {
+      "id": "le-247",
+      "en": "The dishwasher’s eco cycle has entered its contemplative phase.",
+      "de": "Der Ökozyklus des Geschirrspülers ist in seine besinnliche Phase eingetreten."
+    },
+    {
+      "id": "le-248",
+      "en": "The spare battery is fully charged.\nYou brought the other torch.",
+      "de": "Der Ersatzakku ist voll geladen.\nDu hast die andere Taschenlampe dabei."
+    },
+    {
+      "id": "le-249",
+      "en": "Multitasking puts all your unfinished work within easy reach.",
+      "de": "Multitasking hält alle unfertigen Aufgaben in bequemer Reichweite."
+    },
+    {
+      "id": "le-250",
+      "en": "Stay curious.\nThe fridge has developed a new sound.",
+      "de": "Bleib neugierig.\nDer Kühlschrank hat ein neues Geräusch entwickelt."
+    },
+    {
+      "id": "le-251",
+      "en": "The walking tour is free.\nYour feet are preparing their invoice.",
+      "de": "Der Stadtrundgang ist gratis.\nDeine Füsse bereiten ihre Rechnung vor."
+    },
+    {
+      "id": "le-252",
+      "en": "You found matching socks.\nThey’ve never shared this level of ambition before.",
+      "de": "Du hast passende Socken gefunden.\nSo viel gemeinsamen Ehrgeiz hatten sie noch nie."
+    },
+    {
+      "id": "le-253",
+      "en": "You have a lot to offer.\nThe form allows twenty characters.",
+      "de": "Du hast viel zu bieten.\nDas Formular erlaubt zwanzig Zeichen."
+    },
+    {
+      "id": "le-254",
+      "en": "The queue is moving.\nYour lunch break is moving faster.",
+      "de": "Die Schlange bewegt sich.\nDeine Mittagspause ist schneller."
+    },
+    {
+      "id": "le-255",
+      "en": "The paint is touch dry.\nYour sleeve has volunteered to verify.",
+      "de": "Die Farbe ist berührungstrocken.\nDein Ärmel hat sich zur Prüfung gemeldet."
+    },
+    {
+      "id": "le-256",
+      "en": "The invitation says casual.\nEveryone else got a private definition.",
+      "de": "Die Einladung sagt leger.\nAlle anderen haben eine eigene Definition erhalten."
+    },
+    {
+      "id": "le-257",
+      "en": "Your phone made a “best moments” video.\nIt opened with a parking receipt.",
+      "de": "Dein Handy hat ein Video der besten Momente erstellt.\nEs beginnt mit einem Parkbeleg."
+    },
+    {
+      "id": "le-258",
+      "en": "Leave your comfort zone.\nIt’s being turned into storage anyway.",
+      "de": "Verlass deine Komfortzone.\nSie wird sowieso gerade zum Lager umgebaut."
+    },
+    {
+      "id": "le-259",
+      "en": "The instructions say “simply”.\nMake some coffee.",
+      "de": "In der Anleitung steht «einfach».\nKoch schon mal Kaffee."
+    },
+    {
+      "id": "le-260",
+      "en": "Your call is important.\nSo important they’ve given it its own soundtrack.",
+      "de": "Dein Anruf ist wichtig.\nSo wichtig, dass er einen eigenen Soundtrack bekommen hat."
+    },
+    {
+      "id": "le-261",
+      "en": "You’re one step ahead.\nYou skipped a page.",
+      "de": "Du bist einen Schritt voraus.\nDu hast eine Seite übersprungen."
+    },
+    {
+      "id": "le-262",
+      "en": "The “miscellaneous” folder has become your most accurate category.",
+      "de": "Der Ordner «Diverses» ist inzwischen deine genaueste Kategorie."
+    },
+    {
+      "id": "le-263",
+      "en": "Fresh air clears the mind.\nThe leaf blower next door has other plans.",
+      "de": "Frische Luft macht den Kopf frei.\nDer Laubbläser nebenan hat andere Pläne."
+    },
+    {
+      "id": "le-264",
+      "en": "The tent fits two people.\nYour luggage is asking which one of you is leaving.",
+      "de": "Das Zelt bietet Platz für zwei.\nDein Gepäck fragt, wer von euch draussen schläft."
+    },
+    {
+      "id": "le-265",
+      "en": "At least the worst is over.\nThe sequel has been approved.",
+      "de": "Das Schlimmste ist wenigstens vorbei.\nDie Fortsetzung wurde genehmigt."
+    },
+    {
+      "id": "le-266",
+      "en": "Your toast landed butter-side up.\nIt found the only wet patch.",
+      "de": "Dein Toast landete mit der Butterseite nach oben.\nGenau in der einzigen Pfütze."
+    },
+    {
+      "id": "le-267",
+      "en": "There’s an app for everything.\nFinding the right one is now a hobby.",
+      "de": "Es gibt für alles eine App.\nDie richtige zu finden ist jetzt ein Hobby."
+    },
+    {
+      "id": "le-268",
+      "en": "Keep your head up.\nIt’s the only way to see the next bill coming.",
+      "de": "Kopf hoch.\nNur so siehst du die nächste Rechnung kommen."
+    },
+    {
+      "id": "le-269",
+      "en": "The notice says “temporary inconvenience”.\nIt’s celebrating an anniversary.",
+      "de": "Auf dem Schild steht «vorübergehende Unannehmlichkeiten».\nEs feiert gerade Jubiläum."
+    },
+    {
+      "id": "le-270",
+      "en": "You’re building a personal brand.\nSo far, it’s “running a bit late”.",
+      "de": "Du baust deine persönliche Marke auf.\nBisher heisst sie «bin etwas spät dran»."
+    },
+    {
+      "id": "le-271",
+      "en": "Your pen is always where you left it.\nThat’s the part you can’t remember.",
+      "de": "Dein Stift liegt dort, wo du ihn hingelegt hast.\nGenau daran erinnerst du dich nicht."
+    },
+    {
+      "id": "le-272",
+      "en": "The café has free Wi-Fi.\nYour coffee has become an hourly desk rental.",
+      "de": "Das Café hat Gratis-WLAN.\nDein Kaffee ist jetzt stundenweise Büromiete."
+    },
+    {
+      "id": "le-273",
+      "en": "You’ve updated the spreadsheet.\nThe world has continued without consulting it.",
+      "de": "Du hast die Tabelle aktualisiert.\nDie Welt hat weitergemacht, ohne sie zu fragen."
+    },
+    {
+      "id": "le-274",
+      "en": "The remote has a dedicated button for a service you don’t use.",
+      "de": "Die Fernbedienung hat einen eigenen Knopf für einen Dienst, den du nicht nutzt."
+    },
+    {
+      "id": "le-275",
+      "en": "Say less.\nThe silence can be misinterpreted much faster.",
+      "de": "Sag weniger.\nDie Stille lässt sich viel schneller falsch verstehen."
+    },
+    {
+      "id": "le-276",
+      "en": "The estate agent calls it cosy.\nYour furniture calls it a misunderstanding.",
+      "de": "Der Makler nennt es gemütlich.\nDeine Möbel nennen es ein Missverständnis."
+    },
+    {
+      "id": "le-277",
+      "en": "The train connection is theoretically possible.\nSo is a gold medal.",
+      "de": "Der Anschluss ist theoretisch machbar.\nEine Goldmedaille auch."
+    },
+    {
+      "id": "le-278",
+      "en": "You signed up for a challenge.\nThe unsubscribe link is admirably hard to find.",
+      "de": "Du hast dich für eine Challenge angemeldet.\nDer Abmeldelink ist vorbildlich schwer zu finden."
+    },
+    {
+      "id": "le-279",
+      "en": "The spare buttons are in a safe place.\nThey’ve joined the spare keys.",
+      "de": "Die Ersatzknöpfe sind an einem sicheren Ort.\nBei den Ersatzschlüsseln."
+    },
+    {
+      "id": "le-280",
+      "en": "Choose quality over quantity.\nYour problems have done exactly that.",
+      "de": "Wähle Qualität statt Quantität.\nDeine Probleme haben sich daran gehalten."
+    },
+    {
+      "id": "le-281",
+      "en": "The homemade pizza is rustic.\nThat’s the word you agreed on.",
+      "de": "Die selbst gemachte Pizza ist rustikal.\nAuf dieses Wort habt ihr euch geeinigt."
+    },
+    {
+      "id": "le-282",
+      "en": "You learnt the rules of chess.\nLosing now has a much richer vocabulary.",
+      "de": "Du kennst jetzt die Schachregeln.\nVerlieren hat nun einen viel grösseren Wortschatz."
+    },
+    {
+      "id": "le-283",
+      "en": "Your keyboard has shortcuts for everything.\nYou can now close the wrong window three ways.",
+      "de": "Die Tastatur hat für alles Kürzel.\nDu kannst das falsche Fenster jetzt auf drei Arten schliessen."
+    },
+    {
+      "id": "le-284",
+      "en": "The photo is perfectly candid.\nIt took twenty-three attempts.",
+      "de": "Das Foto wirkt vollkommen spontan.\nEs hat dreiundzwanzig Versuche gebraucht."
+    },
+    {
+      "id": "le-285",
+      "en": "Take your time.\nSomeone else will decide what it was worth.",
+      "de": "Nimm dir Zeit.\nJemand anders entscheidet, was sie wert war."
+    },
+    {
+      "id": "le-286",
+      "en": "The guided meditation is over.\nYou spent it wondering whether you’d muted yourself.",
+      "de": "Die geführte Meditation ist vorbei.\nDu hast überlegt, ob dein Mikrofon stumm ist."
+    },
+    {
+      "id": "le-287",
+      "en": "Your meal is beautifully presented.\nThe bill would like the same attention.",
+      "de": "Dein Essen ist schön angerichtet.\nDie Rechnung hätte gern die gleiche Aufmerksamkeit."
+    },
+    {
+      "id": "le-288",
+      "en": "Everything fits in one bag.\nThe bag has requested legal advice.",
+      "de": "Alles passt in eine Tasche.\nDie Tasche hat rechtlichen Beistand angefordert."
+    },
+    {
+      "id": "le-289",
+      "en": "The reminder has arrived.\nIt remembers the promise you made while cheerful.",
+      "de": "Die Erinnerung ist da.\nSie kennt das Versprechen, das du bei guter Laune gemacht hast."
+    },
+    {
+      "id": "le-290",
+      "en": "Your presentation has a clear message.\nThe projector prefers abstract art.",
+      "de": "Deine Präsentation hat eine klare Botschaft.\nDer Beamer bevorzugt abstrakte Kunst."
+    },
+    {
+      "id": "le-291",
+      "en": "The language app says you’re fluent.\nThe waiter has asked a second question.",
+      "de": "Laut Sprach-App sprichst du fliessend.\nDer Kellner hat eine zweite Frage gestellt."
+    },
+    {
+      "id": "le-292",
+      "en": "The hotel has a pillow menu.\nYour neck has rejected the concept.",
+      "de": "Das Hotel hat eine Kissenkarte.\nDein Nacken hat das Konzept abgelehnt."
+    },
+    {
+      "id": "le-293",
+      "en": "Take the initiative.\nIt comes with all the follow-up emails.",
+      "de": "Ergreif die Initiative.\nSämtliche Folge-E-Mails sind inklusive."
+    },
+    {
+      "id": "le-294",
+      "en": "The car park has hundreds of spaces.\nYou’ve chosen “walk back and try again”.",
+      "de": "Das Parkhaus hat Hunderte Plätze.\nDu hast «zurücklaufen und nochmals versuchen» gewählt."
+    },
+    {
+      "id": "le-295",
+      "en": "Your reusable coffee cup is at home.\nIt’s very committed to saving energy.",
+      "de": "Dein Mehrwegbecher ist zu Hause.\nEr setzt sich sehr fürs Energiesparen ein."
+    },
+    {
+      "id": "le-296",
+      "en": "The reminder says “prepare”.\nThat was the preparation.",
+      "de": "Die Erinnerung sagt «vorbereiten».\nDas war die Vorbereitung."
+    },
+    {
+      "id": "le-297",
+      "en": "The screw is magnetic.\nYour screwdriver has different beliefs.",
+      "de": "Die Schraube ist magnetisch.\nDein Schraubenzieher hat andere Überzeugungen."
+    },
+    {
+      "id": "le-298",
+      "en": "A little mystery keeps life interesting.\nThe bank statement is overachieving.",
+      "de": "Ein wenig Rätselhaftes macht das Leben spannend.\nDer Kontoauszug übertreibt es."
+    },
+    {
+      "id": "le-299",
+      "en": "Your pottery is wonderfully expressive.\nThe mug handle has chosen independence.",
+      "de": "Deine Keramik ist wunderbar ausdrucksstark.\nDer Tassenhenkel hat die Unabhängigkeit gewählt."
+    },
+    {
+      "id": "le-300",
+      "en": "The backup plan is ready.\nIt was written by the same optimist.",
+      "de": "Der Notfallplan ist fertig.\nEr stammt vom gleichen Optimisten."
+    },
+    {
+      "id": "le-301",
+      "en": "The flat has excellent natural light.\nCurtains are an optional extra.",
+      "de": "Die Wohnung hat viel natürliches Licht.\nVorhänge gibt es gegen Aufpreis."
+    },
+    {
+      "id": "le-302",
+      "en": "You’ve finally memorised the menu.\nThe waiter is bringing the specials.",
+      "de": "Du kennst endlich die Speisekarte.\nDer Kellner bringt die Tagesempfehlungen."
+    },
+    {
+      "id": "le-303",
+      "en": "The bottle says “best before”.\nYou admire its willingness to set boundaries.",
+      "de": "Die Flasche sagt «mindestens haltbar bis».\nDu bewunderst ihre Bereitschaft, Grenzen zu setzen."
+    },
+    {
+      "id": "le-304",
+      "en": "Your email is beautifully concise.\nThe attachment is missing.",
+      "de": "Deine E-Mail ist wunderbar kurz.\nDer Anhang fehlt."
+    },
+    {
+      "id": "le-305",
+      "en": "Find your balance.\nThe café table is still looking for its own.",
+      "de": "Finde dein Gleichgewicht.\nDer Cafétisch sucht seines auch noch."
+    },
+    {
+      "id": "le-306",
+      "en": "Your holiday auto-reply is on.\nYou’re checking whether anyone has admired it.",
+      "de": "Die Ferien-Abwesenheitsmeldung ist aktiv.\nDu schaust nach, ob sie jemand bewundert hat."
+    },
+    {
+      "id": "le-307",
+      "en": "Your car remembers your seat position.\nThe mechanic is a different height.",
+      "de": "Dein Auto kennt deine Sitzposition.\nDer Mechaniker ist anders gross."
+    },
+    {
+      "id": "le-308",
+      "en": "The cinema promises escape.\nYour parking ticket expires halfway through.",
+      "de": "Das Kino verspricht eine Auszeit.\nDein Parkticket läuft mitten im Film ab."
+    },
+    {
+      "id": "le-309",
+      "en": "The tap is motion-activated.\nIt’s waiting for a more convincing performance.",
+      "de": "Der Wasserhahn reagiert auf Bewegung.\nEr wartet auf eine überzeugendere Darbietung."
+    },
+    {
+      "id": "le-310",
+      "en": "Seize the day.\nKeep the receipt.",
+      "de": "Nutze den Tag.\nBewahr den Beleg auf."
+    },
+    {
+      "id": "le-311",
+      "en": "The inspirational sticker in your planner has covered the actual deadline.",
+      "de": "Der motivierende Aufkleber im Planer hat den eigentlichen Abgabetermin überdeckt."
+    },
+    {
+      "id": "le-312",
+      "en": "You can do anything you set your mind to.\nYour mind has selected another sandwich.",
+      "de": "Du kannst alles schaffen, was du dir vornimmst.\nDu hast dir noch ein Sandwich vorgenommen."
+    },
+    {
+      "id": "le-313",
+      "en": "The terms are fair.\nThey were written by the other party.",
+      "de": "Die Bedingungen sind fair.\nSie wurden von der anderen Partei geschrieben."
+    },
+    {
+      "id": "le-314",
+      "en": "Your headphones cancel noise.\nThey’re still letting your thoughts through.",
+      "de": "Deine Kopfhörer unterdrücken Lärm.\nDeine Gedanken lassen sie weiterhin durch."
+    },
+    {
+      "id": "le-315",
+      "en": "The waiting room has magazines.\nYou’re now up to date on a wedding from 2009.",
+      "de": "Im Wartezimmer gibt es Hefte.\nDu weisst jetzt alles über eine Hochzeit von 2009."
+    },
+    {
+      "id": "le-316",
+      "en": "The puzzle says a thousand pieces.\nThe cat has requested a recount.",
+      "de": "Das Puzzle verspricht tausend Teile.\nDie Katze hat eine Nachzählung beantragt."
+    },
+    {
+      "id": "le-317",
+      "en": "Your hair has achieved volume.\nIt’s negotiating its own direction.",
+      "de": "Deine Haare haben Volumen erreicht.\nDie Richtung verhandeln sie selbst."
+    },
+    {
+      "id": "le-318",
+      "en": "Plan ahead.\nIt gives the delays somewhere to line up.",
+      "de": "Plane voraus.\nDann wissen die Verzögerungen, wo sie sich anstellen sollen."
+    },
+    {
+      "id": "le-319",
+      "en": "The chatbot understands your problem.\nIt recommends the page that sent you here.",
+      "de": "Der Chatbot versteht dein Problem.\nEr empfiehlt die Seite, die dich hierhergeschickt hat."
+    },
+    {
+      "id": "le-320",
+      "en": "The door is open to feedback.\nIt leads to an empty office.",
+      "de": "Die Tür steht für Feedback offen.\nSie führt in ein leeres Büro."
+    },
+    {
+      "id": "le-321",
+      "en": "The recipe needs one bay leaf.\nThe packet has provided a lifetime commitment.",
+      "de": "Das Rezept braucht ein Lorbeerblatt.\nDie Packung bietet eine lebenslange Verpflichtung."
+    },
+    {
+      "id": "le-322",
+      "en": "You’re ready to leave.\nThe zip has a closing argument.",
+      "de": "Du bist abmarschbereit.\nDer Reissverschluss hat noch Einwände."
+    },
+    {
+      "id": "le-323",
+      "en": "Your handwriting has personality.\nThe shopping list is now a guessing game.",
+      "de": "Deine Handschrift hat Charakter.\nDer Einkaufszettel ist jetzt ein Ratespiel."
+    },
+    {
+      "id": "le-324",
+      "en": "The team has a shared vision.\nThe shared document has twelve versions.",
+      "de": "Das Team hat eine gemeinsame Vision.\nDas gemeinsame Dokument hat zwölf Versionen."
+    },
+    {
+      "id": "le-325",
+      "en": "Be grateful for small mercies.\nThe large ones require a subscription.",
+      "de": "Freu dich über kleine Erleichterungen.\nDie grossen gibt es nur im Abo."
+    },
+    {
+      "id": "le-326",
+      "en": "The sofa arrived in pieces.\nIts commitment to your rest remains theoretical.",
+      "de": "Das Sofa kam in Einzelteilen.\nSein Beitrag zu deiner Erholung bleibt theoretisch."
+    },
+    {
+      "id": "le-327",
+      "en": "Your neighbour has finished mowing.\nThey’re just starting the edges.",
+      "de": "Dein Nachbar ist mit Rasenmähen fertig.\nJetzt kommen noch die Ränder."
+    },
+    {
+      "id": "le-328",
+      "en": "Your photos are sorted by date.\nThe embarrassing years remain in order.",
+      "de": "Deine Fotos sind nach Datum sortiert.\nDie peinlichen Jahre bleiben in der richtigen Reihenfolge."
+    },
+    {
+      "id": "le-329",
+      "en": "The compliment was sincere.\nYou’re working out what they need.",
+      "de": "Das Kompliment war ehrlich gemeint.\nDu überlegst noch, was sie brauchen."
+    },
+    {
+      "id": "le-330",
+      "en": "Keep things in perspective.\nThe stain is smaller from across the room.",
+      "de": "Bewahr den Überblick.\nVon der anderen Zimmerseite ist der Fleck kleiner."
+    },
+    {
+      "id": "le-331",
+      "en": "The weather looks fine through the window.\nThe temperature is keeping quiet.",
+      "de": "Durchs Fenster sieht das Wetter gut aus.\nDie Temperatur hält sich bedeckt."
+    },
+    {
+      "id": "le-332",
+      "en": "Your phone knows where you parked.\nIt has eleven per cent battery to explain.",
+      "de": "Dein Handy weiss, wo du parkiert hast.\nEs hat elf Prozent Akku für die Erklärung."
+    },
+    {
+      "id": "le-333",
+      "en": "The manual says “finger-tight”.\nYour fingers would like a specification.",
+      "de": "Die Anleitung sagt «handfest».\nDeine Hände hätten gern eine genaue Angabe."
+    },
+    {
+      "id": "le-334",
+      "en": "The bus stop has a shelter.\nThe rain has taken the seat beside you.",
+      "de": "Die Bushaltestelle hat ein Dach.\nDer Regen sitzt trotzdem neben dir."
+    },
+    {
+      "id": "le-335",
+      "en": "Don’t let small things stop you.\nThe missing adapter is making a strong case.",
+      "de": "Lass dich nicht von Kleinigkeiten aufhalten.\nDer fehlende Adapter hat gute Argumente."
+    },
+    {
+      "id": "le-336",
+      "en": "The card says “just because”.\nYou’re checking the calendar very carefully.",
+      "de": "Auf der Karte steht «einfach so».\nDu prüfst den Kalender sehr genau."
+    },
+    {
+      "id": "le-337",
+      "en": "Your bookshelf expands your horizons.\nMostly when you’re looking for room.",
+      "de": "Dein Bücherregal erweitert den Horizont.\nVor allem bei der Suche nach Platz."
+    },
+    {
+      "id": "le-338",
+      "en": "The timetable is clear.\nThe replacement bus is a plot twist.",
+      "de": "Der Fahrplan ist klar.\nDer Ersatzbus ist eine überraschende Wendung."
+    },
+    {
+      "id": "le-339",
+      "en": "Your phone has stopped correcting your name.\nIt has accepted the new spelling.",
+      "de": "Dein Handy korrigiert deinen Namen nicht mehr.\nEs hat die neue Schreibweise akzeptiert."
+    },
+    {
+      "id": "le-340",
+      "en": "The meeting was productive.\nYour worries now have a structure.",
+      "de": "Die Besprechung war produktiv.\nDeine Sorgen haben jetzt eine Struktur."
+    },
+    {
+      "id": "le-341",
+      "en": "The toaster has a “cancel” button.\nYou’re considering one for the rest of the kitchen.",
+      "de": "Der Toaster hat einen Abbruchknopf.\nDu überlegst dir einen für den Rest der Küche."
+    },
+    {
+      "id": "le-342",
+      "en": "Your houseplant has new growth.\nIt’s heading towards the neighbour’s window.",
+      "de": "Deine Zimmerpflanze hat neue Triebe.\nSie wachsen in Richtung Nachbarfenster."
+    },
+    {
+      "id": "le-343",
+      "en": "Make a lasting impression.\nThe coffee ring is setting a fine example.",
+      "de": "Hinterlass einen bleibenden Eindruck.\nDer Kaffeering geht mit gutem Beispiel voran."
+    },
+    {
+      "id": "le-344",
+      "en": "The traffic report is accurate.\nYou are in it.",
+      "de": "Die Staumeldung stimmt.\nDu stehst mittendrin."
+    },
+    {
+      "id": "le-345",
+      "en": "The budget airline seat includes legroom.\nThey won’t say whose legs.",
+      "de": "Der Billigflugsitz bietet Beinfreiheit.\nWessen Beine gemeint sind, bleibt offen."
+    },
+    {
+      "id": "le-346",
+      "en": "The sewing kit has everything you need.\nThreading the needle remains your problem.",
+      "de": "Das Nähset hat alles Nötige.\nDen Faden durchs Nadelöhr zu bringen bleibt dein Problem."
+    },
+    {
+      "id": "le-347",
+      "en": "Your favourite song is on the radio.\nThe tunnel has excellent timing.",
+      "de": "Dein Lieblingslied läuft im Radio.\nDer Tunnel hat ein ausgezeichnetes Timing."
+    },
+    {
+      "id": "le-348",
+      "en": "Your CV is up to date.\nYour enthusiasm is using an older version.",
+      "de": "Dein Lebenslauf ist aktuell.\nDeine Begeisterung nutzt noch eine ältere Version."
+    },
+    {
+      "id": "le-349",
+      "en": "The discount code worked.\nThe delivery charge was watching.",
+      "de": "Der Rabattcode hat funktioniert.\nDie Liefergebühr hat zugeschaut."
+    },
+    {
+      "id": "le-350",
+      "en": "Be a good listener.\nThere’s a sequel to this story.",
+      "de": "Hör gut zu.\nZu dieser Geschichte gibt es eine Fortsetzung."
+    },
+    {
+      "id": "le-351",
+      "en": "The room is soundproof.\nThe plumbing is telling a different story.",
+      "de": "Das Zimmer ist schallisoliert.\nDie Wasserleitungen erzählen etwas anderes."
+    },
+    {
+      "id": "le-352",
+      "en": "Your order has a tracking number.\nWatching it won’t count as progress.",
+      "de": "Deine Bestellung hat eine Trackingnummer.\nSie anzustarren zählt nicht als Fortschritt."
+    },
+    {
+      "id": "le-353",
+      "en": "You learnt to manage expectations.\nOther people have appointed themselves auditors.",
+      "de": "Du beherrschst Erwartungsmanagement.\nDie anderen haben sich selbst zur Prüfstelle ernannt."
+    },
+    {
+      "id": "le-354",
+      "en": "The shoes are on sale.\nYour size was available in a previous lifetime.",
+      "de": "Die Schuhe sind reduziert.\nDeine Grösse gab es in einem früheren Leben."
+    },
+    {
+      "id": "le-355",
+      "en": "The guide says “allow extra time”.\nYou’re interested in where they sell it.",
+      "de": "Der Ratgeber sagt «mehr Zeit einplanen».\nDu wüsstest gern, wo man sie kaufen kann."
+    },
+    {
+      "id": "le-356",
+      "en": "The digital detox is going well.\nYou’ve posted an update about it.",
+      "de": "Deine digitale Auszeit läuft gut.\nDu hast ein Update darüber gepostet."
+    },
+    {
+      "id": "le-357",
+      "en": "The freezer is full of future meals.\nThe labels have entered their archaeological period.",
+      "de": "Im Tiefkühler liegen künftige Mahlzeiten.\nDie Etiketten gehören in die Archäologie."
+    },
+    {
+      "id": "le-358",
+      "en": "The biography says success takes sacrifice.\nIt has chosen your shelf space first.",
+      "de": "Laut Biografie braucht Erfolg Opfer.\nSie beginnt mit deinem Platz im Bücherregal."
+    },
+    {
+      "id": "le-359",
+      "en": "The calendar says there’s still time.\nIt hasn’t met your printer.",
+      "de": "Laut Kalender bleibt noch Zeit.\nEr kennt deinen Drucker nicht."
+    },
+    {
+      "id": "le-360",
+      "en": "Don’t be afraid to ask for help.\nEveryone else is still loading the same tutorial.",
+      "de": "Trau dich, um Hilfe zu bitten.\nDie anderen laden noch das gleiche Tutorial."
+    },
+    {
+      "id": "le-361",
+      "en": "Your desk chair swivels freely.\nYour career is demonstrating the same range of movement.",
+      "de": "Dein Bürostuhl dreht sich frei.\nDeine Karriere zeigt einen ähnlichen Bewegungsradius."
+    },
+    {
+      "id": "le-362",
+      "en": "The name badge is correct.\nThe person using it is still improvising.",
+      "de": "Das Namensschild stimmt.\nDie Person dahinter improvisiert noch."
+    },
+    {
+      "id": "le-363",
+      "en": "Your backup has a backup.\nThey’re in the same drawer.",
+      "de": "Deine Sicherung hat eine Sicherung.\nSie liegen in derselben Schublade."
+    },
+    {
+      "id": "le-364",
+      "en": "The self-help section has moved.\nYou’re encouraged to find it yourself.",
+      "de": "Die Selbsthilfeabteilung ist umgezogen.\nDu darfst sie jetzt selbst finden."
+    },
+    {
+      "id": "le-365",
+      "en": "A fresh page changes everything.\nMainly the number.",
+      "de": "Eine frische Seite verändert alles.\nHauptsächlich die Zahl."
     }
   ]
 }
