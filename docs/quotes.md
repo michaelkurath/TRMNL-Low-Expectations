@@ -1,4 +1,4 @@
-# LOW EXPECTATIONS: the first 90 days
+# Low Expectations: the first 90 days
 
 These lines were written for this prototype. They have no invented author attribution.
 German uses Swiss spelling. The two languages share an entry ID and daily position.

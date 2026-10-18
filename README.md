@@ -1,4 +1,4 @@
-# LOW EXPECTATIONS
+# Low Expectations
 
 A fresh disappointment. Every day.
 
@@ -24,7 +24,7 @@ Version 0.3.0 appends entries le-061 to le-090, with more shopping, travel, DIY,
 
 This repository is linked to TRMNL plugin **510794**. Its ID is retained in src/settings.template.yml and the generated src/settings.yml.
 
-1. Open LOW EXPECTATIONS in TRMNL and find its GitHub section.
+1. Open Low Expectations in TRMNL and find its GitHub section.
 2. Import the latest changes from GitHub. For this single-plugin repository, leave Folder in the repository blank.
 3. Confirm that Strategy is Static, the Static Data contains the catalogue, and the language field is available.
 4. Force Refresh and check the calendar.
@@ -35,7 +35,7 @@ See [TRMNL GitHub Sync](https://help.trmnl.com/en/articles/15977899-github-sync)
 
 ## Install manually on TRMNL
 
-1. Create a Private Plugin named LOW EXPECTATIONS.
+1. Create a Private Plugin named Low Expectations.
 2. Select the Static strategy. Paste the complete contents of data/static_data.json into Static Data.
 3. Set Framework to 3.4.3, dark mode off, and normal screen padding. Use a 60-minute refresh interval initially.
 4. Paste docs/custom-fields.yml into the custom form fields editor.

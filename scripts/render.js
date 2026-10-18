@@ -24,7 +24,7 @@ function screenHtml(markup, device, layout, cssHref) {
     content = '<div class="mashup mashup--' + names[layout] + '">' + markup +
       '<div class="view view--' + layout + '"></div>'.repeat(blanks) + '</div>';
   }
-  return '<!doctype html><html><head><meta charset="utf-8"><title>LOW EXPECTATIONS — ' + device.key + ' ' + layout + '</title>' +
+  return '<!doctype html><html><head><meta charset="utf-8"><title>Low Expectations — ' + device.key + ' ' + layout + '</title>' +
     '<link rel="stylesheet" href="' + cssHref + '">' +
     '<style>html,body{margin:0;padding:0;background:white;} .screen{--screen-w:' + device.width + 'px;--screen-h:' + device.height +
     'px;width:' + device.width + 'px;height:' + device.height + 'px;}</style></head>' +

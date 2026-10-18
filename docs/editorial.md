@@ -1,6 +1,6 @@
 # Editorial guide
 
-LOW EXPECTATIONS turns familiar encouragement into small, recognisable disappointments. Aim for dry humour about everyday situations. Avoid hostility towards the reader, long explanations, and punchlines that need specialist knowledge.
+Low Expectations turns familiar encouragement into small, recognisable disappointments. Aim for dry humour about everyday situations. Avoid hostility towards the reader, long explanations, and punchlines that need specialist knowledge.
 
 ## Writing and translation
 
